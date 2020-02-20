@@ -100,7 +100,7 @@ body {
   font-family: "Merriweather Light"; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Novovento"; }
+  font-family: "Novecento"; }
 
 ul {
   float: right; }
@@ -113,6 +113,59 @@ a {
   text-decoration: none;
   text-transform: uppercase; }
 
+body {
+  background: #ffffff;
+  width: 1120px;
+  font-size: 16px;
+  color: #404040;
+  line-height: 1.75;
+  font-family: "Merriweather Light"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Novecento"; }
+
+.hero-home {
+  background-image: url("./assets/images/home-hero.jpg");
+  background-size: cover;
+  height: 500px; }
+
+a {
+  color: #ffffff;
+  font-family: "Novecento"; }
+
+#logo-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#logo-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+body {
+  background: #ffffff;
+  width: 1120px;
+  font-size: 16px;
+  color: #404040;
+  line-height: 1.75;
+  font-family: "Merriweather Light"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Novecento"; }
+
 h2, p {
   max-width: 800px;
   margin: auto; }
@@ -124,14 +177,3 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-
-body {
-  background: #ffffff;
-  width: 1120px;
-  font-size: 16px;
-  color: #404040;
-  line-height: 1.75;
-  font-family: "Merriweather Light"; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Novovento"; }

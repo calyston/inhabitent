@@ -13,7 +13,6 @@ function inhabitant_features() {
     add_theme_support('title-tag');
     
     add_theme_support('post-thumbnails');
-    get_the_post_thumbnail();
 
     //creates a menu for the pages
     register_nav_menus(array(

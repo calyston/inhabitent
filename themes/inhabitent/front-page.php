@@ -1,5 +1,8 @@
-<?php get_header(); ?>
-
+<div class="hero-home">
+  <?php get_header(); ?>
+  <img id="logo-big" src="wp-content/themes/inhabitent/assets/images/logos/inhabitent-logo-full.svg">
+  <img id="logo-small" src="wp-content/themes/inhabitent/assets/images/logos/inhabitent-logo-tent-white.svg">
+</div>
 <?php if( have_posts() ) :
 
 //The WordPress Loop: loads post content 

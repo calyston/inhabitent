@@ -1,3 +1,16 @@
+body {
+  background: #ffffff;
+  width: 1120px;
+  font-size: 16px;
+  color: $main-font-color;
+  line-height: 1.75;
+  font-family: $main-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: $accent-font;
+}
+
 h2, p {
   max-width: 800px;
   margin: auto;
