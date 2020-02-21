@@ -19,6 +19,12 @@ font-family: $accent-font;
   height: 500px;
 }
 
+#logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 #logo-big {
-  width: 200px;
+  width: 225px;
 }
