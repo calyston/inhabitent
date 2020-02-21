@@ -69,14 +69,3 @@
   font-weight: bold;
   font-style: normal;
 }
-
-$main-font: 'Merriweather Light';
-$accent-font: 'Novecento';
-
-body {
-  font-family: $main-font;
-}
-
-h1, h2, h3, h4, h5, h6 {
-font-family: $accent-font;
-}
