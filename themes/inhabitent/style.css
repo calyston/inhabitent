@@ -116,7 +116,10 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0px 50px; }
+  margin: 0px 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
 
 body {
   background: #ffffff;
