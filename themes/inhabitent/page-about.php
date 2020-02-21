@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="hero-about"></div>
 
 <?php if( have_posts() ) :
 

@@ -1,5 +1,5 @@
+<?php get_header();?> 
 <div class="hero-home">
-  <?php get_header();?>
   <div id="logo-container">
     <img id="logo-big" src="wp-content/themes/inhabitent/assets/images/logos/inhabitent-logo-full.svg">
   </div>
@@ -12,6 +12,8 @@
     
     <h2><?php the_title(); ?></h2>
     <h3><?php the_permalink();?></h3>
+    <h3><?php echo get_template_directory_uri();?></h3>
+
     <?php the_content(); ?>
     
     <!-- Loop ends -->
