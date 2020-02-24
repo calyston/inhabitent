@@ -159,17 +159,6 @@ h1, h2, h3, h4, h5, h6 {
 #logo-big {
   width: 225px; }
 
-body {
-  background: #ffffff;
-  width: 100%;
-  font-size: 16px;
-  color: #404040;
-  line-height: 1.75;
-  font-family: "Merriweather Light"; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Novecento"; }
-
 h2, p {
   max-width: 800px;
   margin: auto; }
