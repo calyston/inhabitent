@@ -36,7 +36,7 @@ function inhabitent_widgets() {
 //making widgets that will go into our sidebar
 add_action('widgets_init', 'inhabitent_widgets');
 
-//add new productss on wordpress
+//add new products on wordpress
 function inhabitent_post_types(){
   register_post_type('product', array(
     'has_archive' => true,

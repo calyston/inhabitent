@@ -1,8 +1,40 @@
+//PRODUCT ARCHIVE PAGE
+.shop-title {
+  color: $main-font-color;
+  text-transform: uppercase;
+  font-family: 'Novecento Bold';
+  text-align: center;
+  padding: 20px;
+}
+
+#shop-links a {
+  color: $brand-green;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#shop-links li {
+  float: left;
+  padding: 10px;
+}
+
+.shop-item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.shop-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 //SINGLE PRODUCT PAGE
 .product-page {
   display: flex;
   flex-direction: row;
-
 }
 
 #product-img {

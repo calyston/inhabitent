@@ -119,6 +119,10 @@ a {
   font-family: "Novecento";
   color: #ffffff; }
 
+.shop-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,6 +185,39 @@ h2 {
   background-size: cover;
   width: 100%;
   height: 500px; }
+
+.shop-title {
+  color: #404040;
+  text-transform: uppercase;
+  font-family: 'Novecento Bold';
+  text-align: center;
+  padding: 20px; }
+
+#shop-links a {
+  color: #248A83;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+#shop-links li {
+  float: left;
+  padding: 10px; }
+
+.shop-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px; }
+
+.shop-item img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .product-page {
   display: -webkit-box;
