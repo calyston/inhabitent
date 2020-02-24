@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<section class="shop-grid">
 <?php if( have_posts() ) :
 
 //The WordPress Loop: loads post content 
@@ -20,6 +19,5 @@
 <?php else : ?>
         <p>No posts found</p>
 <?php endif;?>
-</section>
     
 <?php get_footer();?>
