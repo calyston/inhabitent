@@ -145,10 +145,11 @@ h1, h2, h3, h4, h5, h6 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/images/home-hero.jpg");
   background-size: cover;
   width: 100%;
-  height: 500px; }
+  height: 650px; }
 
 #logo-container {
   width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center; }
 
 #logo-big {
-  width: 225px; }
+  width: 250px; }
 
 h2, p {
   max-width: 800px;
@@ -180,6 +181,3 @@ h2 {
   background-size: cover;
   width: 100%;
   height: 500px; }
-
-.shop-grid {
-  grid-template-columns: 1fr 1fr 1fr 1fr; }
