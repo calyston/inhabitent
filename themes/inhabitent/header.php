@@ -9,7 +9,7 @@
 <body <?php body_class();?>>
 <!-- <h1><?php bloginfo('name');?></h1> -->
 <header>
-  <img id="logo-small" src="<?php echo get_template_directory_uri();?>/assets/images/logos/inhabitent-logo-tent-white.svg">
+  <a href="./home"><img id="logo-small" src="<?php echo get_template_directory_uri();?>/assets/images/logos/inhabitent-logo-tent-white.svg"></a>
   <nav class="main-menu">
     <?php wp_nav_menu(array(
       'theme_location' => 'main'
