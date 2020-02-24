@@ -1,0 +1,23 @@
+//SINGLE PRODUCT PAGE
+.product-page {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#product-img {
+  width: 400px;
+  height: auto;
+}
+
+#product-heading {
+  color: $brand-orange;
+  text-transform: uppercase;
+  font-family: 'Novecento Bold';
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+

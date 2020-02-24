@@ -1,23 +1,27 @@
 <?php get_header(); ?>
 
-<?php if( have_posts() ) :
+<section class="product-page">
+  <?php if( have_posts() ) :
 
-//The WordPress Loop: loads post content 
-    while( have_posts() ) :
-        the_post(); ?>
+  //The WordPress Loop: loads post content 
+      while( have_posts() ) :
+          the_post(); ?>
+
+      <img id="product-img" src="<?php the_post_thumbnail();?>">
+      <div class="product-info">
+      <h2 id="product-heading"><?php the_title(); ?></h2>
+      <h3><?php the_permalink();?></h3>
+      <?php the_content(); ?>
+      </div>
     
-    <h2><?php the_title(); ?></h2>
-    <?php the_post_thumbnail();?>
-    <h3><?php the_permalink();?></h3>
-    <?php the_content(); ?>
-    
-    <!-- Loop ends -->
-    <?php endwhile;?>
+      <!-- Loop ends -->
+      <?php endwhile;?>
 
-    <?php the_posts_navigation();?>
+      <?php the_posts_navigation();?>
 
-<?php else : ?>
-        <p>No posts found</p>
-<?php endif;?>
+  <?php else : ?>
+          <p>No posts found</p>
+  <?php endif;?>
+</section>
     
 <?php get_footer();?>
