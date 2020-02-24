@@ -1,9 +1,15 @@
 //PRODUCT ARCHIVE PAGE
+
+#shop-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .shop-title {
   color: $main-font-color;
   text-transform: uppercase;
   font-family: 'Novecento Bold';
-  text-align: center;
   padding: 20px;
 }
 
@@ -17,6 +23,8 @@
 #shop-links li {
   float: left;
   padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 0px;
 }
 
 .shop-item {
