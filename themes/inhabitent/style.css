@@ -105,19 +105,33 @@ h2 {
 h3 {
   font-size: 20px; }
 
-#logo-small {
-  width: 50px;
-  padding-left: 50px; }
-
-li {
+.white-nav li {
   float: left;
   padding: 10px; }
 
-a {
+.white-nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Novecento";
   color: #ffffff; }
+
+.green-nav li {
+  float: left;
+  padding: 10px; }
+
+.green-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Novecento";
+  color: #248A83; }
+
+#logo-small-white {
+  width: 50px;
+  padding-left: 50px; }
+
+#logo-small-green {
+  width: 50px;
+  padding-left: 50px; }
 
 .shop-grid {
   display: grid;
@@ -125,6 +139,11 @@ a {
   justify-items: center;
   border-top: 1px dashed #c8c8c8;
   margin: 0 auto; }
+
+.home-shop-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center; }
 
 header {
   display: -webkit-box;
@@ -141,6 +160,15 @@ footer {
   footer span {
     color: white;
     font-family: "Novecento"; }
+
+sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 body {
   background: #ffffff;
@@ -239,7 +267,7 @@ h2, p {
 .shop-title {
   color: #404040;
   text-transform: uppercase;
-  font-family: 'Novecento Bold';
+  font-family: "Novecento Bold";
   padding: 20px; }
 
 #shop-links a {
@@ -303,3 +331,34 @@ h2, p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+
+.journal-post-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px; }
+  .journal-post-img img {
+    width: 600px;
+    height: auto;
+    position: relative; }
+  .journal-post-img h2 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: "Novecento Bold";
+    background-color: #248A83;
+    padding: 20px; }
+  .journal-post-img span {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: "Novecento Bold";
+    background-color: #248A83;
+    padding: 20px;
+    -ms-flex-item-align: end;
+        align-self: flex-end; }
+
+.journal-post {
+  width: 600px;
+  height: auto;
+  margin: 0 auto; }

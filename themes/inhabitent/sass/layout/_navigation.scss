@@ -1,18 +1,39 @@
 //NAVIGATION
-
-#logo-small {
-  width: 50px;
-  padding-left: 50px;
-}
-
-li {
+.white-nav {
+  li {
   float: left;
   padding: 10px;
-}
-
-a {
+  }
+  a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: $accent-font;
   color: #ffffff;
+  }
 }
+
+.green-nav {
+  li {
+  float: left;
+  padding: 10px;
+  }
+  a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $accent-font;
+  color: $brand-green;
+  }
+}
+
+#logo-small-white {
+  width: 50px;
+  padding-left: 50px;
+}
+
+#logo-small-green {
+  width: 50px;
+  padding-left: 50px;
+}
+
+
+

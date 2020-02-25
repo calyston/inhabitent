@@ -26,5 +26,8 @@
         <p>No posts found</p>
 <?php endif;?>
 
+<section class="home-shop-grid">
+
+</section>
     
 <?php get_footer();?>

@@ -1,0 +1,38 @@
+//JOURNAL POSTS
+.journal-post-img {
+  display: flex;
+  padding: 20px 0px;
+
+  img {
+    width: 600px;
+    height: auto;
+    position: relative;
+  }
+
+  h2 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: $accent-font-bold;
+    background-color: $brand-green;
+    padding: 20px;
+  }
+
+  span {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: $accent-font-bold;
+    background-color: $brand-green;
+    padding: 20px;
+    align-self: flex-end;
+  }
+}
+
+.journal-post {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+//INDIVIDUAL JOURNAL POSTS

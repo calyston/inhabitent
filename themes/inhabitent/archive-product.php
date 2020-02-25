@@ -18,7 +18,7 @@
     while( have_posts() ) :
         the_post(); ?>
     <div class="shop-item">
-    <a href="<?php the_permalink();?>"><img src="<?php the_post_thumbnail();?>"></a>
+    <a href="<?php the_permalink();?>"><img src=<?php the_post_thumbnail();?></a>
     <p><?php the_title(); ?></p>
     <span class="price">
     <?php echo '$'.get_field('price');?>

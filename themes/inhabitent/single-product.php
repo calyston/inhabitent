@@ -7,7 +7,7 @@
       while( have_posts() ) :
           the_post(); ?>
 
-      <img id="product-img" src="<?php the_post_thumbnail();?>">
+      <img id="product-img" src=<?php the_post_thumbnail();?>
       <div class="product-info">
       <h2 id="product-heading"><?php the_title(); ?></h2>
       <span class="price">
