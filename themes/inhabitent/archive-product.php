@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
 <div id="shop-header">
-<h2 class="shop-title">Shop Stuff</h2>
-<ul id="shop-links">
-  <a href="#"><li>Do</li></a>
-  <a href="#"><li>Eat</li></a>
-  <a href="#"><li>Sleep</li></a>
-  <a href="#"><li>Wear</li></a>
-</ul>
+  <h2 class="shop-title">Shop Stuff</h2>
+  <ul id="shop-links">
+    <a href="#"><li>Do</li></a>
+    <a href="#"><li>Eat</li></a>
+    <a href="#"><li>Sleep</li></a>
+    <a href="#"><li>Wear</li></a>
+  </ul>
 </div>
 
 <section class="shop-grid">

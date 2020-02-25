@@ -122,7 +122,9 @@ a {
 .shop-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center; }
+  justify-items: center;
+  border-top: 1px dashed #c8c8c8;
+  margin: 0 auto; }
 
 header {
   display: -webkit-box;
@@ -260,13 +262,17 @@ h2, p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 200px; }
+  width: 300px;
+  border: 1px solid #e1e1e1;
+  margin-top: 30px; }
 
 .shop-item img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   -o-object-fit: cover;
-     object-fit: cover; }
+     object-fit: cover;
+  -webkit-box-shadow: 0px 5px #e1e1e1;
+          box-shadow: 0px 5px #e1e1e1; }
 
 .shop-item p {
   color: #2f1339; }
