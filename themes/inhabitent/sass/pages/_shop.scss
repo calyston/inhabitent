@@ -39,6 +39,10 @@
   object-fit: cover;
 }
 
+.shop-item p {
+  color: $brand-purple;
+}
+
 //SINGLE PRODUCT PAGE
 .product-page {
   display: flex;

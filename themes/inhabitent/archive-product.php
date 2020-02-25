@@ -19,7 +19,10 @@
         the_post(); ?>
     <div class="shop-item">
     <a href="<?php the_permalink();?>"><img src="<?php the_post_thumbnail();?>"></a>
-    <h2><?php the_title(); ?></h2>
+    <p><?php the_title(); ?></p>
+    <span class="price">
+    <?php echo '$'.get_field('price');?>
+    </span>
     <!-- <h3><?php the_permalink();?></h3> -->
     <!-- <?php the_content(); ?> -->
     </div>

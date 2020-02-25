@@ -253,6 +253,9 @@ h2 {
   -o-object-fit: cover;
      object-fit: cover; }
 
+.shop-item p {
+  color: #2f1339; }
+
 .product-page {
   display: -webkit-box;
   display: -ms-flexbox;
