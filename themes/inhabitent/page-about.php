@@ -10,8 +10,10 @@
     <!-- style="background-image: (url: <?php get_the_post_thumbnail_url();?>)"> -->
     <h2><?php the_title(); ?></h2>
     </div>
+    <section class="about"
     <h3><?php the_permalink();?></h3>
     <?php the_content(); ?>
+    </section>
     
     <!-- Loop ends -->
     <?php endwhile;?>

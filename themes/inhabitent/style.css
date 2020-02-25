@@ -100,10 +100,10 @@ h1 {
   font-size: 50px; }
 
 h2 {
-  font-size: 40px; }
+  font-size: 30px; }
 
 h3 {
-  font-size: 30px; }
+  font-size: 20px; }
 
 #logo-small {
   width: 50px;
@@ -133,6 +133,12 @@ header {
           justify-content: space-between;
   position: fixed;
   width: 100%; }
+
+footer {
+  background-image: url(./assets/images/dark-wood.png); }
+  footer span {
+    color: white;
+    font-family: "Novecento"; }
 
 body {
   background: #ffffff;
@@ -173,7 +179,7 @@ h2, p {
   max-width: 800px;
   margin: auto; }
 
-h2 {
+.about h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,6 +189,15 @@ h2 {
   color: #2f1339;
   padding: 20px;
   font-family: 'Novecento Bold'; }
+
+.hero-about {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("./assets/images/about-hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/images/about-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 700px; }
 
 .hero-about h2 {
   display: -webkit-box;
@@ -198,14 +213,14 @@ h2 {
   color: white;
   font-size: 50px; }
 
-.hero-about {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("./assets/images/about-hero.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/images/about-hero.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  width: 100%;
-  height: 700px; }
+#contact-title {
+  padding: 20px;
+  font-family: 'Novecento Bold'; }
+
+.contact h2 {
+  color: #2f1339;
+  padding: 20px;
+  font-family: 'Novecento Bold'; }
 
 #shop-header {
   display: -webkit-box;

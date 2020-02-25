@@ -5,21 +5,12 @@ h2, p {
   margin: auto;
 } 
 
-h2 {
+.about h2 {
   display: flex;
   justify-content: center;
   color: $brand-purple;
   padding: 20px;
   font-family: 'Novecento Bold';
-}
-
-.hero-about h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  color: white;
-  font-size: 50px;
 }
 
 .hero-about {
@@ -29,4 +20,13 @@ h2 {
   background-position: bottom;
   width: 100%;
   height: 700px;
+}
+
+.hero-about h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  font-size: 50px;
 }
