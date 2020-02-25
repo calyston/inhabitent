@@ -97,13 +97,13 @@ table {
   font-style: normal; }
 
 h1 {
-  font-size: 22px; }
+  font-size: 50px; }
 
 h2 {
-  font-size: 20px; }
+  font-size: 40px; }
 
 h3 {
-  font-size: 18px; }
+  font-size: 30px; }
 
 #logo-small {
   width: 50px;
@@ -149,8 +149,9 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("./assets/images/home-hero.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/images/home-hero.jpg");
   background-size: cover;
+  background-position: top;
   width: 100%;
-  height: 650px; }
+  height: 700px; }
 
 #logo-container {
   width: 100%;
@@ -178,14 +179,33 @@ h2 {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  color: #2f1339;
+  padding: 20px;
+  font-family: 'Novecento Bold'; }
+
+.hero-about h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: white;
+  font-size: 50px; }
 
 .hero-about {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("./assets/images/about-hero.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/images/about-hero.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   width: 100%;
-  height: 500px; }
+  height: 700px; }
 
 #shop-header {
   display: -webkit-box;

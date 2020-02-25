@@ -1,13 +1,15 @@
 <?php get_header(); ?>
-<div class="hero-about"></div>
 
 <?php if( have_posts() ) :
 
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
-    
+
+    <div class="hero-about">
+    <!-- style="background-image: (url: <?php get_the_post_thumbnail_url();?>)"> -->
     <h2><?php the_title(); ?></h2>
+    </div>
     <h3><?php the_permalink();?></h3>
     <?php the_content(); ?>
     
