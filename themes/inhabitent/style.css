@@ -55,28 +55,28 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: 'Merriweather Light';
+  font-family: 'Merriweather';
   src: url("./fonts/Merriweather/fonts/merriweather-light-webfont.eot");
   src: url("./fonts/Merriweather/fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/Merriweather/fonts/merriweather-light-webfont.woff2") format("woff2"), url("./fonts/Merriweather/fonts/merriweather-light-webfont.woff") format("woff"), url("./fonts/Merriweather/fonts/merriweather-light-webfont.ttf") format("truetype"), url("./fonts/Merriweather/fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Merriweather Light Italic';
+  font-family: 'Merriweather';
   src: url("./fonts/Merriweather/fonts/merriweather-lightitalic-webfont.eot");
   src: url("./fonts/Merriweather/fonts/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/Merriweather/fonts/merriweather-lightitalic-webfont.woff2") format("woff2"), url("./fonts/Merriweather/fonts/merriweather-lightitalic-webfont.woff") format("woff"), url("./fonts/Merriweather/fonts/merriweather-lightitalic-webfont.ttf") format("truetype"), url("./fonts/Merriweather/fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Merriweather Bold';
+  font-family: 'Merriweather';
   src: url("./fonts/Merriweather/fonts/merriweather-bold-webfont.eot");
   src: url("./fonts/Merriweather/fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/Merriweather/fonts/merriweather-bold-webfont.woff2") format("woff2"), url("./fonts/Merriweather/fonts/merriweather-bold-webfont.woff") format("woff"), url("./fonts/Merriweather/fonts/merriweather-bold-webfont.ttf") format("truetype"), url("./fonts/Merriweather/fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Merriweather Bold Italic';
+  font-family: 'Merriweather';
   src: url("./fonts/Merriweather/fonts/merriweather-bolditalic-webfont.eot");
   src: url("./fonts/Merriweather/fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/Merriweather/fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("./fonts/Merriweather/fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("./fonts/Merriweather/fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("./fonts/Merriweather/fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
   font-weight: bold;
@@ -90,7 +90,7 @@ table {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Novecento Bold';
+  font-family: 'Novecento';
   src: url("./fonts/Novecento/fonts/novecentosanswide-demibold-webfont.eot");
   src: url("./fonts/Novecento/fonts/novecentosanswide-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/Novecento/fonts/novecentosanswide-demibold-webfont.woff2") format("woff2"), url("./fonts/Novecento/fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("./fonts/Novecento/fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("./fonts/Novecento/fonts/novecentosanswide-demibold-webfont.svg#novecento_sans_widedemibold") format("svg");
   font-weight: bold;
@@ -267,7 +267,8 @@ h2, p {
 .shop-title {
   color: #404040;
   text-transform: uppercase;
-  font-family: "Novecento Bold";
+  font-family: "Novecento";
+  font-weight: bold;
   padding: 20px; }
 
 #shop-links a {
@@ -302,8 +303,23 @@ h2, p {
   -webkit-box-shadow: 0px 5px #e1e1e1;
           box-shadow: 0px 5px #e1e1e1; }
 
-.shop-item p {
-  color: #2f1339; }
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%; }
+
+.price p {
+  color: #2f1339;
+  text-align: left;
+  margin: 0px 10px; }
 
 .product-page {
   display: -webkit-box;
@@ -345,14 +361,16 @@ h2, p {
     position: absolute;
     z-index: 1;
     color: white;
-    font-family: "Novecento Bold";
+    font-family: "Novecento";
+    font-weight: bold;
     background-color: #248A83;
     padding: 20px; }
   .journal-post-img span {
     position: absolute;
     z-index: 1;
     color: white;
-    font-family: "Novecento Bold";
+    font-family: "Novecento";
+    font-weight: bold;
     background-color: #248A83;
     padding: 20px;
     -ms-flex-item-align: end;

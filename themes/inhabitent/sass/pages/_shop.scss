@@ -9,7 +9,8 @@
 .shop-title {
   color: $main-font-color;
   text-transform: uppercase;
-  font-family: $accent-font-bold;
+  font-family: $accent-font;
+  font-weight: bold;
   padding: 20px;
 }
 
@@ -33,18 +34,30 @@
   width: 300px;
   border: 1px solid #e1e1e1;
   margin-top: 30px;
+
 }
 
 .shop-item img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  box-shadow: 0px 5px #e1e1e1;
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      box-shadow: 0px 5px #e1e1e1;
 }
 
-.shop-item p {
-  color: $brand-purple;
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
 }
+
+.price p {
+  color: $brand-purple;
+  text-align: left;
+  margin: 0px 10px;
+}
+
+
 
 //SINGLE PRODUCT PAGE
 .product-page {

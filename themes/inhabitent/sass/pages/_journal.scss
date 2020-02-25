@@ -13,7 +13,8 @@
     position: absolute;
     z-index: 1;
     color: white;
-    font-family: $accent-font-bold;
+    font-family: $accent-font;
+    font-weight: bold;
     background-color: $brand-green;
     padding: 20px;
   }
@@ -22,7 +23,8 @@
     position: absolute;
     z-index: 1;
     color: white;
-    font-family: $accent-font-bold;
+    font-family: $accent-font;
+    font-weight: bold;
     background-color: $brand-green;
     padding: 20px;
     align-self: flex-end;
