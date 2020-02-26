@@ -1,4 +1,14 @@
-sidebar {
-  display: flex;
-  flex-direction: column;
-}
+//SIDEBAR SECTION
+
+.sidebar {
+  
+  h2 {
+    color: $brand-purple;
+    font-weight: bold;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+}  
+

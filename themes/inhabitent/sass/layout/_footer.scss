@@ -3,6 +3,8 @@
 footer {
   background-image: url(./assets/images/dark-wood.png);
   display: flex;
+  margin-top: 50px;
+  
   h3 {
     color: $brand-orange;
     font-weight: bold;
@@ -15,7 +17,7 @@ footer {
   strong {
     font-weight: bold;
   }
-  
+
   span {
     color: white;
     font-family: $accent-font;

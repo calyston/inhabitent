@@ -33,7 +33,18 @@ font-family: $accent-font;
   width: 250px;
 }
 
+.home-shop-grid {
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
+
 .home-journal-grid {
+  display: flex;
+  flex-direction: row;
   img {
     width: 300px;
     height: auto;

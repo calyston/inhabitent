@@ -27,7 +27,7 @@ function inhabitent_widgets() {
     'name' => 'Sidebar Info',
     'id' => 'sidebar-info',
     'description' => 'Add a text block with your business hours',
-    'before_widget' => '<aside id="%1$s>',
+    'before_widget' => '<aside id="%1$s">',
     'after_widget' => '</aside>',
     'before_title' => '<h2 class="widget-hours">',
     'after_title' => '</h2>'
