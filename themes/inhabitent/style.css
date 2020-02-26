@@ -155,12 +155,13 @@ header {
   position: fixed;
   width: 100%; }
 
-.footer-area {
-  height: 500px;
-  width: 100%; }
-
 footer {
-  background-image: url(./assets/images/dark-wood.png); }
+  background-image: url(./assets/images/dark-wood.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  footer h2 {
+    color: #d99054; }
   footer span {
     color: white;
     font-family: "Novecento"; }

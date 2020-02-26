@@ -34,10 +34,20 @@ function inhabitent_widgets() {
   ));
 
   register_sidebar(array(
-    'name' => 'Footer Info',
-    'id' => 'footer-info',
+    'name' => 'Contact Info',
+    'id' => 'contact-info',
+    'description' => 'Add a text block with your contact info',
+    'before_widget' => '<section class="footer-contact">',
+    'after_widget' => '</section>',
+    'before_title' => '<h2>',
+    'after_title' => '</h2>'
+  ));
+
+  register_sidebar(array(
+    'name' => 'Business Hours',
+    'id' => 'business-hours',
     'description' => 'Add a text block with your business hours',
-    'before_widget' => '<section class="footer-area">',
+    'before_widget' => '<section class="footer-business">',
     'after_widget' => '</section>',
     'before_title' => '<h2>',
     'after_title' => '</h2>'
