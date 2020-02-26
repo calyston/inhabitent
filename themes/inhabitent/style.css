@@ -205,6 +205,10 @@ h1, h2, h3, h4, h5, h6 {
 #logo-big {
   width: 250px; }
 
+.home-journal-grid img {
+  width: 300px;
+  height: auto; }
+
 h2, p {
   max-width: 800px;
   margin: auto; }

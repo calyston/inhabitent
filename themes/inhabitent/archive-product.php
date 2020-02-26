@@ -11,12 +11,12 @@
 </div>
 
 <section class="shop-grid">
-<?php query_posts($query_string.'&orderby=title&order=ASC');?>
+
 <?php if( have_posts() ) :
 
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
-        the_post(); ?>
+      the_post(); ?>
     <div class="shop-item">
     <a href="<?php the_permalink();?>"><img src=<?php the_post_thumbnail();?></a>
     
@@ -32,6 +32,7 @@
     <?php endwhile;?>
 
     <?php the_posts_navigation();?>
+    <?php wp_reset_postdata(); ?>
 
 <?php else : ?>
         <p>No posts found</p>

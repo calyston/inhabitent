@@ -26,8 +26,42 @@
         <p>No posts found</p>
 <?php endif;?>
 
-<section class="home-shop-grid">
+<?php
+  $terms = get_terms(array(
+    'taxonomy' => 'product-type',
+    'hide-empty' => false
+  ));
 
+  
+
+  foreach($terms as $term) :
+    $file_name = $term->name . '.svg';
+    echo "<p>";
+    echo $term->name;
+    echo "</p>";?>
+    <img src='<?php echo get_template_directory_uri() . "/assets/images/product-type-icons/$file_name"?>'>;
+  <?php endforeach; ?>
+
+;?>
+
+<!-- Custom Post Loop Starts -->
+<section class="home-journal-grid">
+<?php
+   $args = array(
+    'post_type' => 'post',
+    'order' => 'ASC',
+    'numberposts' => 3 //returns 3 posts
+  );
+   $product_posts = get_posts( $args ); //returns an array of posts
+?>
+<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+   <?php the_title();?>
+   <?php the_post_thumbnail();?>
+<?php endforeach; wp_reset_postdata(); ?>
 </section>
+
+<!-- <section class="home-shop-grid">
+
+</section> -->
     
 <?php get_footer();?>

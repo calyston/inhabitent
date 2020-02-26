@@ -91,6 +91,12 @@ $labels = array(
 
 add_action('init', 'inhabitent_post_types');
 
-//Gets rid of error message at bottom of page
-remove_action('shutdown', 'wp_ob_end_flush_all', 1);
+function inhabitent_adjust_product($query) {
+  if(!is_admin() && is_post_type_archive('product')) :
+    $query->set('orderby', 'title');
+    $query->set('order', 'ASC');
+  endif;
+}
+
+add_action('pre_get_posts', 'inhabitent_adjust_product');
 ?>
