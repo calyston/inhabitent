@@ -39,8 +39,8 @@ function inhabitent_widgets() {
     'description' => 'Add a text block with your contact info',
     'before_widget' => '<section class="footer-contact">',
     'after_widget' => '</section>',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>'
+    'before_title' => '<h3>',
+    'after_title' => '</h3>'
   ));
 
   register_sidebar(array(
@@ -49,8 +49,8 @@ function inhabitent_widgets() {
     'description' => 'Add a text block with your business hours',
     'before_widget' => '<section class="footer-business">',
     'after_widget' => '</section>',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>'
+    'before_title' => '<h3>',
+    'after_title' => '</h3>'
   ));
 }
 //making widgets that will go into our sidebar

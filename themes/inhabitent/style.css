@@ -160,11 +160,19 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  footer h2 {
-    color: #d99054; }
+  footer h3 {
+    color: #d99054;
+    font-weight: bold; }
+  footer p {
+    color: white; }
+  footer strong {
+    font-weight: bold; }
   footer span {
     color: white;
     font-family: "Novecento"; }
+
+.footer-contact, .footer-business {
+  margin: 50px; }
 
 sidebar {
   display: -webkit-box;
@@ -181,7 +189,7 @@ body {
   font-size: 16px;
   color: #404040;
   line-height: 1.75;
-  font-family: "Merriweather Light"; }
+  font-family: "Merriweather"; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Novecento"; }
