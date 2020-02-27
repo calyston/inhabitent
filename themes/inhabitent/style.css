@@ -406,6 +406,10 @@ h2, p {
   font-weight: bold;
   margin-top: 3rem; }
 
+#product-content {
+  width: 70%;
+  margin-right: 1.5rem; }
+
 .price {
   margin-bottom: 1.5rem; }
 

@@ -9,11 +9,13 @@
 
       <img id="product-img" src=<?php the_post_thumbnail();?>
       <div class="product-info">
-      <h2 id="product-heading"><?php the_title(); ?></h2>
-      <h3 class="price">
-      <?php echo '$'.get_field('price');?>
-      </h3>
-      <?php the_content(); ?>
+        <h2 id="product-heading"><?php the_title(); ?></h2>
+        <h3 class="price">
+        <?php echo '$'.get_field('price');?>
+        </h3>
+        <div id="product-content">
+          <?php the_content(); ?>
+        </div>
       </div>
     
       <!-- Loop ends -->
