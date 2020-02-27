@@ -214,6 +214,9 @@ footer {
   background-color: #248A83;
   border: none; }
 
+#empty-div {
+  height: 50px; }
+
 body {
   background: #ffffff;
   width: 100%;

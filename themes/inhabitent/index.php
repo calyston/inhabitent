@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="empty-div"></div>
 <?php get_sidebar();?>
 
 <?php if( have_posts() ) :

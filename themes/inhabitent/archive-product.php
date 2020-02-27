@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="empty-div"></div>
 
 <div id="shop-header">
   <h2 class="shop-title">Shop Stuff</h2>

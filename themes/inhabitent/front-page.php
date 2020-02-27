@@ -1,4 +1,5 @@
 <?php get_header();?> 
+
 <div class="hero-home">
   <div id="logo-container">
     <img id="logo-big" src="wp-content/themes/inhabitent/assets/images/logos/inhabitent-logo-full.svg">
