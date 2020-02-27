@@ -399,17 +399,19 @@ h2, p {
   display: flex;
   padding: 20px 0px; }
   .journal-post-img img {
-    width: 600px;
+    width: 800px;
     height: auto;
     position: relative; }
   .journal-post-img h2 {
+    width: 375px;
     position: absolute;
     z-index: 1;
     color: white;
     font-family: "Novecento";
     font-weight: bold;
     background-color: #248A83;
-    padding: 20px; }
+    padding: 0px 20px;
+    margin-top: 30px; }
   .journal-post-img span {
     position: absolute;
     z-index: 1;
@@ -421,7 +423,15 @@ h2, p {
     -ms-flex-item-align: end;
         align-self: flex-end; }
 
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
 .journal-post {
-  width: 600px;
+  width: 800px;
   height: auto;
-  margin: 0 auto; }
+  margin: 50px; }

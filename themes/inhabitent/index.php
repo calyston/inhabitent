@@ -11,7 +11,9 @@
       <div class="journal-post-img">
         <h2><?php the_title(); ?></h2>
         <img src=<?php the_post_thumbnail();?>
-        <span><?php the_date(); ?> / By <?php the_author(); ?></span>
+        <div class="author">
+          <span><?php the_date(); ?> / By <?php the_author(); ?></span>
+        </div>
       </div>
       <!-- <h3><?php the_permalink();?></h3> -->
       <?php the_content(); ?>
@@ -25,5 +27,4 @@
         <p>No posts found</p>
 <?php endif;?>
 
-    
 <?php get_footer();?>

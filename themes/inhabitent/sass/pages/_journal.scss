@@ -4,19 +4,21 @@
   padding: 20px 0px;
 
   img {
-    width: 600px;
+    width: 800px;
     height: auto;
     position: relative;
   }
 
   h2 {
+    width: 375px;
     position: absolute;
     z-index: 1;
     color: white;
     font-family: $accent-font;
     font-weight: bold;
     background-color: $brand-green;
-    padding: 20px;
+    padding: 0px 20px;
+    margin-top: 30px;
   }
 
   span {
@@ -31,10 +33,15 @@
   }
 }
 
+.author {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .journal-post {
-  width: 600px;
+  width: 800px;
   height: auto;
-  margin: 0 auto;
+  margin: 50px;
 }
 
 //INDIVIDUAL JOURNAL POSTS
