@@ -1,5 +1,16 @@
 //NAVIGATION
+// nav {
+//   display: flex;
+//   justify-content: space-between;
+//   position: fixed;
+//   width: 100%;
+// }
+
 .white-nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
   li {
   float: left;
   padding: 10px;
@@ -12,7 +23,17 @@
   }
 }
 
+#logo-small-white {
+  width: 50px;
+  margin-left: $base-spacing * 2;
+}
+
 .green-nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 100px;
   li {
   float: left;
   padding: 10px;
@@ -23,11 +44,6 @@
   font-family: $accent-font;
   color: $brand-green;
   }
-}
-
-#logo-small-white {
-  width: 50px;
-  padding-left: 50px;
 }
 
 #logo-small-green {
