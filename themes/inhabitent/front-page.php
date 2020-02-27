@@ -33,16 +33,20 @@
     'taxonomy' => 'product-type',
     'hide-empty' => false
   ));
+  // echo '<pre>';
+  // print_r($terms);
+  // echo '</pre>';
 
   foreach($terms as $term) :
     $file_name = $term->name . '.svg';
-    echo "<p>";
+    // echo '<div class="home-shop-grid-items">';
+    echo '<p>';
     echo $term->name;
-    echo "</p>";?>
-    <img src='<?php echo get_template_directory_uri() . "/assets/images/product-type-icons/$file_name"?>'>;
-  <?php endforeach; ?>
+    echo '</p>';
+    ?>
+    <img src='<?php echo get_template_directory_uri() . "/assets/images/product-type-icons/$file_name";?>'>
   
-;?>
+    <?php endforeach; ?>
   </section>
 
 <!-- Custom Post Loop Starts -->

@@ -138,12 +138,22 @@ h3 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   border-top: 1px dashed #c8c8c8;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 1.5rem; }
 
 .home-shop-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center; }
+
+.home-shop-grid-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
 
 header {
   display: -webkit-box;
@@ -160,7 +170,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px; }
+  margin-top: 3rem; }
   footer h3 {
     color: #d99054;
     font-weight: bold; }
@@ -173,7 +183,7 @@ footer {
     font-family: "Novecento"; }
 
 .footer-contact, .footer-business {
-  margin: 50px; }
+  margin: 3rem; }
 
 .sidebar {
   width: 25%;
@@ -190,6 +200,11 @@ footer {
     font-weight: bold; }
   .sidebar strong {
     font-weight: bold; }
+
+.green-button {
+  color: white;
+  background-color: #248A83;
+  border: none; }
 
 body {
   background: #ffffff;
@@ -338,7 +353,7 @@ h2, p {
           flex-direction: column;
   width: 300px;
   border: 1px solid #e1e1e1;
-  margin-top: 30px; }
+  margin-top: 1.5rem; }
 
 .shop-item img {
   width: 300px;
@@ -380,22 +395,19 @@ h2, p {
           flex-direction: row; }
 
 #product-img {
-  width: 400px;
-  height: auto; }
+  width: 40%;
+  height: auto;
+  margin: 3rem; }
 
 #product-heading {
   color: #d99054;
   text-transform: uppercase;
-  font-family: 'Novecento Bold'; }
+  font-family: 'Novecento';
+  font-weight: bold;
+  margin-top: 3rem; }
 
-.product-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+.price {
+  margin-bottom: 1.5rem; }
 
 .journal-post-img {
   display: -webkit-box;

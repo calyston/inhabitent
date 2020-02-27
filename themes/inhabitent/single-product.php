@@ -10,10 +10,9 @@
       <img id="product-img" src=<?php the_post_thumbnail();?>
       <div class="product-info">
       <h2 id="product-heading"><?php the_title(); ?></h2>
-      <span class="price">
+      <h3 class="price">
       <?php echo '$'.get_field('price');?>
-      </span>
-      <h3><?php the_permalink();?></h3>
+      </h3>
       <?php the_content(); ?>
       </div>
     

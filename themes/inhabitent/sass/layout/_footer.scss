@@ -3,7 +3,7 @@
 footer {
   background-image: url(./assets/images/dark-wood.png);
   display: flex;
-  margin-top: 50px;
+  margin-top: ($base-spacing * 2);
   
   h3 {
     color: $brand-orange;
@@ -25,5 +25,5 @@ footer {
 }
 
 .footer-contact, .footer-business {
-  margin: 50px;
+  margin: ($base-spacing * 2);
 }
