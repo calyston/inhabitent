@@ -44,17 +44,22 @@
       box-shadow: 0px 5px #e1e1e1;
 }
 
-.price {
+.archive-product-info {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100%;
 }
 
-.price p {
+.archive-product-title {
   color: $brand-purple;
   text-align: left;
-  margin: 0px 10px;
+  margin: 10px 10px;
+}
+
+.archive-product-price {
+  text-align: right;
+  margin: 10px 10px;
 }
 
 

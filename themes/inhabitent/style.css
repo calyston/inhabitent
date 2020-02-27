@@ -348,7 +348,7 @@ h2, p {
   -webkit-box-shadow: 0px 5px #e1e1e1;
           box-shadow: 0px 5px #e1e1e1; }
 
-.price {
+.archive-product-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,15 +356,19 @@ h2, p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%; }
 
-.price p {
+.archive-product-title {
   color: #2f1339;
   text-align: left;
-  margin: 0px 10px; }
+  margin: 10px 10px; }
+
+.archive-product-price {
+  text-align: right;
+  margin: 10px 10px; }
 
 .product-page {
   display: -webkit-box;
