@@ -27,7 +27,7 @@
         <p>No posts found</p>
 <?php endif;?>
 
-<h2 class="home-h2">Shop Stuff</h2>
+<h1 class="home-h1">shop stuff</h1>
 <section class="home-shop-grid">
 <?php
   $terms = get_terms(array(
@@ -63,7 +63,7 @@
   <!-- if term name === do/eat/sleep/wear then echo relevant paragraph-->
 
 
-<h2 class="home-h2">Inhabitent Journal</h2>
+<h1 class="home-h1">inhabitent journal</h1>
 <!-- Custom Post Loop Starts -->
 <section class="home-journal-grid">
 <?php
@@ -78,16 +78,16 @@
 
 <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
 <div class="home-journal-grid-items">
-    <?php the_post_thumbnail();?>
-   <?php the_date(); ?> / By <?php the_author(); ?>
-   <h3><?php the_title();?></h3>
-   <p>Read Entry</p>
+  <?php the_post_thumbnail();?>
+   <p><?php the_date(); ?> / By <?php the_author(); ?></p>
+   <h2><?php the_title();?></h2>
+   <button class="read-entry"><p>Read Entry</p></button>
 </div> 
 <?php endforeach; wp_reset_postdata(); ?>
  
 </section>
 
-<h2 class="home-h2">Latest Adventures</h2>
+<h1 class="home-h1">latest adventures</h1>
 <!-- Custom Post Loop Starts -->
 <!-- <section class="home-adventure-grid">
 <?php

@@ -3,9 +3,19 @@
 //HOMEPAGE
 
 .green-button {
-  color: white;
+  color: #ffffff;
   background-color: $brand-green;
   border: none;
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: $accent-font;
+}
+
+.read-entry {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
   padding: 10px;
   margin: 10px;
   text-transform: uppercase;
