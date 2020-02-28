@@ -67,12 +67,15 @@
 .product-page {
   display: flex;
   flex-direction: row;
+    h2, p {
+    max-width: 800px;
+  } 
 }
 
 #product-img {
-  width: 45%; //400px
+  width: 530px;
   height: auto;
-  margin: ($base-spacing * 2);
+  margin: $base-spacing * 2;
 }
 
 #product-heading {
@@ -80,12 +83,12 @@
   text-transform: uppercase;
   font-family: 'Novecento';
   font-weight: bold;
-  margin-top: ($base-spacing * 2)
+  margin-top: $base-spacing * 2;
 }
 
 #product-content {
-  width: 75%;
-  margin-right: $base-spacing;
+  width: 600px;
+  margin-right: $base-spacing * 2;
 }
 
 .price {
