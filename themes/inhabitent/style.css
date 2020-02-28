@@ -231,7 +231,8 @@ h3 {
   .home-journal-grid-items h2 {
     color: #248A83;
     font-weight: bold;
-    margin-left: 10px; }
+    margin-left: 10px;
+    line-height: 1; }
 
 footer {
   background-image: url(./assets/images/dark-wood.png);
@@ -494,8 +495,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Novecento";
     font-weight: bold;
     background-color: #248A83;
-    padding: 0px 20px;
-    margin-top: 30px; }
+    padding: 10px 20px;
+    margin-top: 30px;
+    line-height: 1; }
   .journal-post-img span {
     position: absolute;
     z-index: 1;
@@ -503,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Novecento";
     font-weight: bold;
     background-color: #248A83;
-    padding: 20px;
+    padding: 10px 20px;
     -ms-flex-item-align: end;
         align-self: flex-end; }
 

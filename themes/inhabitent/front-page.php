@@ -39,10 +39,10 @@
   foreach($terms as $term) :
     $file_name = $term->name . '.svg';
     echo '<div class="home-shop-grid-items">';
-    echo '<button class="green-button"><span>';
+    echo '<button class="green-button">';
     echo $term->name;
     echo ' stuff';
-    echo '</button></span>';
+    echo '</button>';
     ?>
     <!-- Shop Section info -->
     <?php if($file_name === 'Do.svg') {

@@ -17,8 +17,9 @@
     font-family: $accent-font;
     font-weight: bold;
     background-color: $brand-green;
-    padding: 0px 20px;
+    padding: 10px 20px;
     margin-top: 30px;
+    line-height: 1;
   }
 
   span {
@@ -28,7 +29,7 @@
     font-family: $accent-font;
     font-weight: bold;
     background-color: $brand-green;
-    padding: 20px;
+    padding: 10px 20px;
     align-self: flex-end;
   }
 }
