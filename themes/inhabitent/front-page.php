@@ -34,10 +34,8 @@
     'taxonomy' => 'product-type',
     'hide-empty' => false
   ));
-  // echo '<pre>';
-  // print_r($terms);
-  // echo '</pre>';
 
+  //Shop Section name/button
   foreach($terms as $term) :
     $file_name = $term->name . '.svg';
     echo '<div class="home-shop-grid-items">';
@@ -46,8 +44,7 @@
     echo ' stuff';
     echo '</button></span>';
     ?>
-
-    <!-- Section info -->
+    <!-- Shop Section info -->
     <?php if($file_name === 'Do.svg') {
       echo "<p>Get back to nature with all the tools and toys you need to enjoy the great outdoors.</p>";
     } elseif($file_name === 'Eat.svg') {
@@ -57,10 +54,7 @@
     } elseif($file_name === 'Wear.svg') {
       echo "<p>From flannel shirts to toques, look the part while roughing it in the great outdoors.</p>";
     } ?>
-    <!-- <?php //else : ?>
-        <p>No posts found</p> -->
-<!-- <?php //endif;?> -->
-
+    <!-- Shop Section icon -->
     <img id="home-shop-icon" src='<?php echo get_template_directory_uri() . "/assets/images/product-type-icons/$file_name";?>'>
     </div>
     <?php endforeach; ?>
@@ -80,12 +74,33 @@
   );
    $product_posts = get_posts( $args ); //returns an array of posts
 ?>
+
+
+<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+<div class="home-journal-grid-items">
+   <?php the_date(); ?> / By <?php the_author(); ?>
+   <?php the_title();?>
+   <?php the_post_thumbnail();?>
+</div> 
+<?php endforeach; wp_reset_postdata(); ?>
+ 
+</section>
+
+<h2 class="home-h2">Latest Adventures</h2>
+<!-- Custom Post Loop Starts -->
+<!-- <section class="home-adventure-grid">
+<?php
+   $args = array(
+    'post_type' => 'post',
+    'order' => 'ASC',
+    'numberposts' => 3 //returns 3 posts
+  );
+   $product_posts = get_posts( $args ); //returns an array of posts
+?>
 <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
    <?php the_title();?>
    <?php the_post_thumbnail();?>
 <?php endforeach; wp_reset_postdata(); ?>
-</section>
+</section> -->
 
-<h2 class="home-h2">Latest Adventures</h2>
-    
 <?php get_footer();?>

@@ -204,10 +204,33 @@ h3 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 1.5rem;
+  margin: 3rem; }
   .home-journal-grid img {
     width: 300px;
     height: auto; }
+
+.home-journal-grid-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #e1e1e1;
+  -webkit-box-shadow: 0px 5px #e1e1e1;
+          box-shadow: 0px 5px #e1e1e1;
+  padding: 10px; }
 
 footer {
   background-image: url(./assets/images/dark-wood.png);
