@@ -227,7 +227,6 @@ h3 {
           flex-direction: column;
   border: 1px solid #e1e1e1; }
   .home-journal-grid-items p {
-    margin: 0;
     margin-left: 10px; }
   .home-journal-grid-items h2 {
     color: #248A83;
@@ -280,6 +279,7 @@ footer {
   font-family: "Novecento"; }
 
 .read-entry {
+  width: 40%;
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2f1339;
   text-align: center; }
 
-h2, p {
+.about-page h2, .about-page p {
   max-width: 800px;
   margin: auto; }
 
@@ -343,7 +343,7 @@ h2, p {
           justify-content: center;
   color: #2f1339;
   padding: 20px;
-  font-family: 'Novecento Bold'; }
+  font-family: 'Novecento'; }
 
 .hero-about {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("./assets/images/about-hero.jpg");
@@ -370,12 +370,12 @@ h2, p {
 
 #contact-title {
   padding: 20px;
-  font-family: 'Novecento Bold'; }
+  font-family: 'Novecento'; }
 
 .contact h2 {
   color: #2f1339;
   padding: 20px;
-  font-family: 'Novecento Bold'; }
+  font-family: 'Novecento'; }
 
 #shop-header {
   display: -webkit-box;

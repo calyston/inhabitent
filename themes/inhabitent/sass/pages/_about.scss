@@ -1,16 +1,19 @@
 //ABOUT PAGE
 
-h2, p {
+.about-page {
+  h2, p {
   max-width: 800px;
   margin: auto;
 } 
+}
+
 
 .about h2 {
   display: flex;
   justify-content: center;
   color: $brand-purple;
   padding: 20px;
-  font-family: 'Novecento Bold';
+  font-family: 'Novecento';
 }
 
 .hero-about {
