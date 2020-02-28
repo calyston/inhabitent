@@ -9,12 +9,18 @@
 }
 
 .home-shop-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
+  width: 100%;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr 1fr;
+  // justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .home-shop-grid-items {
   display: flex;
   flex-direction: column-reverse;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0px -5px #e1e1e1;
 }

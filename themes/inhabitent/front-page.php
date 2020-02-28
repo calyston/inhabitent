@@ -40,13 +40,14 @@
 
   foreach($terms as $term) :
     $file_name = $term->name . '.svg';
-    // echo '<div class="home-shop-grid-items">';
-    echo '<p>';
+    echo '<div class="home-shop-grid-items">';
+    echo '<button class="green-button"><p>';
     echo $term->name;
-    echo '</p>';
+    echo ' stuff';
+    echo '</button></p>';
     ?>
     <img src='<?php echo get_template_directory_uri() . "/assets/images/product-type-icons/$file_name";?>'>
-  
+    </div>
     <?php endforeach; ?>
   </section>
 
