@@ -160,7 +160,6 @@ h3 {
   margin-top: 1.5rem; }
 
 .home-shop-grid {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,7 +189,8 @@ h3 {
   border: 1px solid #e1e1e1;
   -webkit-box-shadow: 0px -5px #e1e1e1;
           box-shadow: 0px -5px #e1e1e1;
-  padding: 10px; }
+  padding: 10px;
+  text-align: center; }
 
 #home-shop-icon {
   width: 60px;
@@ -250,6 +250,7 @@ footer {
   background-color: #248A83;
   border: none;
   padding: 10px;
+  margin: 10px;
   text-transform: uppercase;
   font-family: "Novecento"; }
 
