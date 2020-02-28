@@ -69,7 +69,7 @@
 <?php
    $args = array(
     'post_type' => 'post',
-    'order' => 'ASC',
+    'order' => 'DESC',
     'numberposts' => 3 //returns 3 posts
   );
    $product_posts = get_posts( $args ); //returns an array of posts
@@ -78,9 +78,10 @@
 
 <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
 <div class="home-journal-grid-items">
+    <?php the_post_thumbnail();?>
    <?php the_date(); ?> / By <?php the_author(); ?>
-   <?php the_title();?>
-   <?php the_post_thumbnail();?>
+   <h3><?php the_title();?></h3>
+   <p>Read Entry</p>
 </div> 
 <?php endforeach; wp_reset_postdata(); ?>
  
