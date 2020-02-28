@@ -1,3 +1,4 @@
+//SHOP PAGE GRID
 .shop-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -8,19 +9,38 @@
   margin-top: $base-spacing;
 }
 
+//SHOP STUFF- HOME PAGE
 .home-shop-grid {
   width: 100%;
-  // display: grid;
-  // grid-template-columns: 1fr 1fr 1fr 1fr;
-  // justify-content: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  gap: $base-spacing;
+  margin: $base-spacing * 2;
 }
 
 .home-shop-grid-items {
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #e1e1e1;
   box-shadow: 0px -5px #e1e1e1;
+  padding: 10px;
+}
+
+#home-shop-icon {
+  width: 60px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+//INHABITENT JOURNAL- HOME PAGE
+.home-journal-grid {
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 300px;
+    height: auto;
+  }
 }

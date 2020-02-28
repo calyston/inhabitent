@@ -169,7 +169,9 @@ h3 {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  gap: 1.5rem;
+  margin: 3rem; }
 
 .home-shop-grid-items {
   display: -webkit-box;
@@ -179,9 +181,33 @@ h3 {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: 1px solid #e1e1e1;
   -webkit-box-shadow: 0px -5px #e1e1e1;
-          box-shadow: 0px -5px #e1e1e1; }
+          box-shadow: 0px -5px #e1e1e1;
+  padding: 10px; }
+
+#home-shop-icon {
+  width: 60px;
+  height: auto;
+  padding-bottom: 10px; }
+
+.home-journal-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .home-journal-grid img {
+    width: 300px;
+    height: auto; }
 
 footer {
   background-image: url(./assets/images/dark-wood.png);
@@ -265,29 +291,9 @@ h1, h2, h3, h4, h5, h6 {
 #logo-big {
   width: 250px; }
 
-.home-shop-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-  .home-shop-grid img {
-    width: 100px;
-    height: auto; }
-
-.home-journal-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-  .home-journal-grid img {
-    width: 300px;
-    height: auto; }
+.home-h2 {
+  color: #2f1339;
+  text-align: center; }
 
 h2, p {
   max-width: 800px;
