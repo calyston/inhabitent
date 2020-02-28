@@ -1,4 +1,19 @@
 //JOURNAL POSTS
+.journal-page{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.sidebar-grid {
+  grid-row-start: 1;
+  grid-row-end: 5;  
+}
+
+// .journal-posts-grid {
+//   order: 1;
+// }
+
 .journal-post-img {
   display: flex;
   padding: 20px 0px;
@@ -42,7 +57,7 @@
 .journal-post {
   width: 800px;
   height: auto;
-  margin: 50px;
+  margin: $base-spacing * 2;
 }
 
 //INDIVIDUAL JOURNAL POSTS

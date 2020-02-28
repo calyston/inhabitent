@@ -135,8 +135,7 @@ h3 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: absolute;
-  width: 100%;
-  height: 100px; }
+  width: 100%; }
   .green-nav li {
     float: left;
     padding: 10px; }
@@ -263,7 +262,8 @@ footer {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  margin: 3rem; }
   .sidebar h2 {
     color: #2f1339;
     font-weight: bold; }
@@ -280,14 +280,16 @@ footer {
   font-family: "Novecento"; }
 
 .read-entry {
-  width: 40%;
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #000000;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 10px;
+  margin-top: 1.5rem;
+  margin-bottom: 15px;
   text-transform: uppercase;
-  font-family: "Novecento"; }
+  font-family: "Novecento";
+  font-size: 18px; }
 
 #empty-div {
   height: 50px; }
@@ -478,6 +480,15 @@ h1, h2, h3, h4, h5, h6 {
 .price {
   margin-bottom: 1.5rem; }
 
+.journal-page {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
+
+.sidebar-grid {
+  grid-row-start: 1;
+  grid-row-end: 5; }
+
 .journal-post-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -520,4 +531,4 @@ h1, h2, h3, h4, h5, h6 {
 .journal-post {
   width: 800px;
   height: auto;
-  margin: 50px; }
+  margin: 3rem; }

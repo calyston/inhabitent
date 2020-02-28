@@ -81,7 +81,9 @@
   <?php the_post_thumbnail();?>
    <p><?php the_date(); ?> / By <?php the_author(); ?></p>
    <h2><?php the_title();?></h2>
+   <form action=<?php the_permalink();?> method="get">
    <button class="read-entry">Read Entry</button>
+  </form>
 </div> 
 <?php endforeach; wp_reset_postdata(); ?>
  

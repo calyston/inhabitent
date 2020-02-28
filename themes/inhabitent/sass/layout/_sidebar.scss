@@ -5,6 +5,7 @@
   float: right;
   display: flex;
   flex-direction: column;
+  margin: $base-spacing * 2;
 
   h2 {
     color: $brand-purple;
