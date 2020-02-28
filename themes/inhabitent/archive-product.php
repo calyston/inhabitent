@@ -11,6 +11,22 @@
   </ul>
 </div>
 
+<section class="home-shop-grid">
+<?php
+  $terms = get_terms(array(
+    'taxonomy' => 'product-type',
+    'hide-empty' => false
+  ));
+
+  //Shop Section name/button
+  foreach($terms as $term) :
+    $file_name = $term->name . '.svg';
+    echo $term->name;
+    ?>
+  <!-- <?php the_permalink();?>/inhabitent/product-type// -->
+    <?php endforeach; ?>
+  </section>
+
 <section class="shop-grid">
 
 <?php if( have_posts() ) :
