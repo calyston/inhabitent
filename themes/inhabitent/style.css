@@ -135,7 +135,8 @@ h3 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1; }
   .green-nav li {
     float: left;
     padding: 10px; }
@@ -254,7 +255,6 @@ footer {
   margin: 3rem; }
 
 .sidebar {
-  width: 25%;
   float: right;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -266,7 +266,8 @@ footer {
   margin: 3rem; }
   .sidebar h2 {
     color: #2f1339;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 20px; }
   .sidebar strong {
     font-weight: bold; }
   .sidebar p {
@@ -386,6 +387,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Novecento';
   font-weight: bold;
   margin: 1.5rem 0 1.5rem 0; }
+
+.contact p {
+  width: 60%; }
 
 #shop-header {
   display: -webkit-box;

@@ -1,7 +1,6 @@
 //SIDEBAR SECTION
 
 .sidebar {
-  width: 25%;
   float: right;
   display: flex;
   flex-direction: column;
@@ -10,6 +9,7 @@
   h2 {
     color: $brand-purple;
     font-weight: bold;
+    font-size: 20px;
   }
 
   strong {
