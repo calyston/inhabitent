@@ -269,6 +269,8 @@ footer {
     font-weight: bold; }
   .sidebar strong {
     font-weight: bold; }
+  .sidebar p {
+    line-height: 2.5; }
 
 .green-button {
   color: #ffffff;
@@ -303,7 +305,8 @@ body {
   font-family: "Merriweather"; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Novecento"; }
+  font-family: "Novecento";
+  text-transform: uppercase; }
 
 .hero-home {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("./assets/images/home-hero.jpg");
@@ -371,14 +374,18 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-size: 50px; }
 
+#contact-page {
+  margin: 3rem; }
+
 #contact-title {
-  padding: 20px;
-  font-family: 'Novecento'; }
+  font-family: 'Novecento';
+  font-weight: bold; }
 
 .contact h2 {
   color: #2f1339;
-  padding: 20px;
-  font-family: 'Novecento'; }
+  font-family: 'Novecento';
+  font-weight: bold;
+  margin: 1.5rem 0 1.5rem 0; }
 
 #shop-header {
   display: -webkit-box;

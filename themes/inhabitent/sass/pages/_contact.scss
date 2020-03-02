@@ -1,12 +1,18 @@
 //FIND US PAGE
-
-#contact-title {
-  padding: 20px;
-  font-family: 'Novecento';
+#contact-page {
+  margin: $base-spacing * 2;
 }
 
-.contact h2 {
-  color: $brand-purple;
-  padding: 20px;
+#contact-title {
   font-family: 'Novecento';
+  font-weight: bold;
+}
+
+.contact {
+  h2 {
+  color: $brand-purple;
+  font-family: 'Novecento';
+  font-weight: bold;
+  margin: $base-spacing 0 $base-spacing 0;
+  }
 }
