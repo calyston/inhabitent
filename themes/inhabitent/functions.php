@@ -119,4 +119,20 @@ function inhabitent_adjust_product($query) {
 }
 
 add_action('pre_get_posts', 'inhabitent_adjust_product');
+
+register_post_type('adventure', array(
+  'has_archive' => true,
+  'show_in_rest' => true,
+  'public' => true,
+  'supports' => array('title', 'editor', 'thumbnail'),
+  'labels' => array(
+    'name' => 'Adventures',
+    'add_new_item' => 'Add New Adventure',
+    'edit_item' => 'Edit Adventure',
+    'all_items' => 'All Adventures',
+    'singular_name' => 'Adventure',
+  ),
+  'menu_icon' => 'dashicons-palmtree',
+));
 ?>
+

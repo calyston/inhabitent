@@ -159,6 +159,14 @@ h3 {
   margin: 3rem;
   margin-top: 1.5rem; }
 
+.adventure-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  border-top: 1px dashed #c8c8c8;
+  gap: 1.5rem;
+  margin: 3rem; }
+
 .home-shop-grid {
   display: -webkit-box;
   display: -ms-flexbox;
