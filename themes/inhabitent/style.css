@@ -272,6 +272,8 @@ footer {
   display: flex; }
   #footer-info p {
     line-height: 2.5; }
+  #footer-info i {
+    padding-right: 5px; }
 
 .footer-contact, .footer-business {
   margin: 3rem; }
@@ -289,11 +291,17 @@ footer {
   .sidebar h2 {
     color: #2f1339;
     font-weight: bold;
-    font-size: 20px; }
+    font-size: 20px;
+    padding: 15px 0px; }
   .sidebar strong {
     font-weight: bold; }
   .sidebar p {
     line-height: 2.5; }
+  .sidebar i {
+    padding-right: 10px; }
+  .sidebar a {
+    color: #248A83;
+    text-decoration: none; }
 
 .green-button {
   color: #ffffff;

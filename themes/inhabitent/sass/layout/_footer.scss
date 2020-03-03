@@ -39,8 +39,13 @@ footer {
 
 #footer-info {
   display: flex;
+
   p {
     line-height: 2.5;
+  }
+
+  i {
+    padding-right: 5px;
   }
 }
 
