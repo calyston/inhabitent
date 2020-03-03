@@ -18,6 +18,9 @@
       </div>
       <!-- <h3><?php the_permalink();?></h3> -->
       <?php the_excerpt(); ?>
+      <form action=<?php the_permalink();?> method="get">
+   <button class="read-more">Read More →</button>
+  </form>
     </div>
     <!-- Loop ends -->
     <?php endwhile;?>
