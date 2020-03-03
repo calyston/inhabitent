@@ -79,7 +79,7 @@
 <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
 <div class="home-journal-grid-items">
   <?php the_post_thumbnail();?>
-   <p><?php the_date(); ?> / By <?php the_author(); ?></p>
+   <p><?php the_date(); ?></p>
    <h2><?php the_title();?></h2>
    <form action=<?php the_permalink();?> method="get">
    <button class="read-entry">Read Entry</button>

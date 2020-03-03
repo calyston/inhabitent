@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="empty-div"></div>
 
 <section class="adventure-grid">
 
