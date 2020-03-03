@@ -11,7 +11,7 @@
   </ul>
 </div>
 
-<section class="home-shop-grid">
+<section class="shop-links">
 <?php
   $terms = get_terms(array(
     'taxonomy' => 'product-type',
@@ -23,7 +23,7 @@
     $file_name = $term->name . '.svg';
     echo $term->name;
     ?>
-  <!-- <?php the_permalink();?>/inhabitent/product-type// -->
+  <!-- <?php the_permalink();?> -->
     <?php endforeach; ?>
   </section>
 

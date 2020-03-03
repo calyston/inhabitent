@@ -449,6 +449,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   padding: 20px; }
 
+.shop-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 3rem;
+  color: #248A83;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; }
+
 #shop-links a {
   color: #248A83;
   text-align: center;
