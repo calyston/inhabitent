@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   border-top: 1px dashed #c8c8c8;
+  padding-top: $base-spacing *2;
   gap: $base-spacing;
   margin: $base-spacing * 2;
   margin-top: $base-spacing;

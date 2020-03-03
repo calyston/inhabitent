@@ -8,6 +8,7 @@
 </head>
 <body <?php body_class();?>>
 <!-- <h1><?php bloginfo('name');?></h1> -->
+
 <header>
 <?php if( is_page(array('About', 'Home')) ){ ?>
     <nav class="white-nav">
@@ -28,5 +29,4 @@
     </nav>
 
     <?php } ?>
-
 </header>
