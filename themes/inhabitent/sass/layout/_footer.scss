@@ -4,6 +4,7 @@ footer {
   background-image: url(./assets/images/dark-wood.png);
   display: flex;
   margin-top: ($base-spacing * 2);
+  justify-content: space-between;
   
   h3 {
     color: $brand-orange;
@@ -19,8 +20,27 @@ footer {
   }
 
   span {
+    width: 100%;
+    position: absolute;
+    align-self: flex-end;
+    text-align: center;
     color: white;
     font-family: $accent-font;
+    margin: $base-spacing;
+  }
+
+  img {
+    width: 250px;
+    height: auto;
+    margin: $base-spacing * 2;
+    align-self: flex-start;
+  }
+}
+
+#footer-info {
+  display: flex;
+  p {
+    line-height: 2.5;
   }
 }
 
