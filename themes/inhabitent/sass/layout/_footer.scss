@@ -34,6 +34,7 @@ footer {
     width: 250px;
     height: auto;
     margin: $base-spacing * 2;
+    margin-right: $base-spacing * 3;
     align-self: flex-start;
   }
 }
@@ -50,6 +51,10 @@ footer {
   }
 }
 
-.footer-contact, .footer-business {
-  margin: ($base-spacing * 2);
+.footer-contact{
+  margin: $base-spacing * 2;
+  margin-left: $base-spacing * 3;
+} 
+.footer-business {
+  margin: $base-spacing * 2;
 }

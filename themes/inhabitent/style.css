@@ -125,7 +125,7 @@ h3 {
 
 #logo-small-white {
   width: 50px;
-  margin-left: 3rem; }
+  margin-left: 4.5rem; }
 
 .green-nav {
   display: -webkit-box;
@@ -148,7 +148,7 @@ h3 {
 
 #logo-small-green {
   width: 50px;
-  padding-left: 50px; }
+  margin-left: 4.5rem; }
 
 #menu-with-search {
   display: -webkit-box;
@@ -156,7 +156,8 @@ h3 {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  margin-right: 4.5rem; }
 
 .shop-grid {
   display: grid;
@@ -165,7 +166,7 @@ h3 {
   border-top: 1px dashed #c8c8c8;
   padding-top: 3rem;
   gap: 1.5rem;
-  margin: 3rem;
+  margin: 4.5rem;
   margin-top: 1.5rem; }
 
 .adventure-grid {
@@ -187,7 +188,7 @@ h3 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   gap: 1.5rem;
-  margin: 3rem; }
+  margin: 4.5rem; }
 
 .home-shop-grid-items {
   display: -webkit-box;
@@ -225,7 +226,7 @@ h3 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   gap: 1.5rem;
-  margin: 3rem; }
+  margin: 4.5rem; }
   .home-journal-grid img {
     width: 100%;
     height: 250px;
@@ -300,6 +301,7 @@ footer {
     width: 250px;
     height: auto;
     margin: 3rem;
+    margin-right: 4.5rem;
     -ms-flex-item-align: start;
         align-self: flex-start; }
 
@@ -312,7 +314,11 @@ footer {
   #footer-info i {
     padding-right: 5px; }
 
-.footer-contact, .footer-business {
+.footer-contact {
+  margin: 3rem;
+  margin-left: 4.5rem; }
+
+.footer-business {
   margin: 3rem; }
 
 .sidebar {
@@ -324,7 +330,8 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 3rem; }
+  margin: 3rem;
+  margin-right: 4.5rem; }
   .sidebar h2 {
     color: #2f1339;
     font-weight: bold;
@@ -463,11 +470,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 50px; }
 
 #contact-page {
-  margin: 3rem; }
+  margin: 3rem;
+  margin-left: 4.5rem; }
 
 #contact-title {
   font-family: 'Novecento';
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 1.5rem 0 1.5rem 0; }
 
 .contact h2 {
   color: #2f1339;
@@ -533,12 +542,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 300px;
+  width: 275px;
   border: 1px solid #e1e1e1; }
 
 .shop-item img {
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-box-shadow: 0px 5px #e1e1e1;
@@ -638,7 +647,8 @@ h1, h2, h3, h4, h5, h6 {
 .journal-post {
   width: 800px;
   height: auto;
-  margin: 3rem; }
+  margin: 3rem;
+  margin-left: 4.5rem; }
 
 .search-page {
   margin: 3rem; }
@@ -656,3 +666,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .search-toggle {
   padding: 10px; }
+
+#search-submit {
+  display: none; }

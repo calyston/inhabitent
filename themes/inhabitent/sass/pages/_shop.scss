@@ -42,14 +42,13 @@ text-transform: uppercase;
 .shop-item {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 275px;
   border: 1px solid #e1e1e1;
-  // margin-top: $base-spacing;
 }
 
 .shop-item img {
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
   object-fit: cover;
   box-shadow: 0px 5px #e1e1e1;
 }

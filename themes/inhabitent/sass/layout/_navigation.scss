@@ -25,7 +25,7 @@
 
 #logo-small-white {
   width: 50px;
-  margin-left: $base-spacing * 2;
+  margin-left: $base-spacing * 3;
 }
 
 .green-nav {
@@ -48,10 +48,11 @@
 
 #logo-small-green {
   width: 50px;
-  padding-left: 50px;
+  margin-left: $base-spacing * 3;
 }
 
 #menu-with-search {
   display: flex;
   align-items: center;
+  margin-right: $base-spacing * 3;
 }

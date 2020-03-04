@@ -1,11 +1,5 @@
 //JOURNAL POSTS
 
-
-// .sidebar-grid {
-//   grid-row-start: 1;
-//   grid-row-end: 5;  
-// }
-
 .journal-post-img {
   display: flex;
   padding: 20px 0px;
@@ -50,6 +44,7 @@
   width: 800px;
   height: auto;
   margin: $base-spacing * 2;
+  margin-left: $base-spacing * 3;
 }
 
 //INDIVIDUAL JOURNAL POSTS

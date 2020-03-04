@@ -6,7 +6,7 @@
   border-top: 1px dashed #c8c8c8;
   padding-top: $base-spacing *2;
   gap: $base-spacing;
-  margin: $base-spacing * 2;
+  margin: $base-spacing * 3;
   margin-top: $base-spacing;
 }
 
@@ -27,7 +27,7 @@
   flex-direction: row;
   justify-content: space-around;
   gap: $base-spacing;
-  margin: $base-spacing * 2;
+  margin: $base-spacing * 3;
 }
 
 .home-shop-grid-items {
@@ -53,7 +53,7 @@
   flex-direction: row;
   justify-content: space-around;
   gap: $base-spacing;
-  margin: $base-spacing * 2;
+  margin: $base-spacing * 3;
 
   img {
     width: 100%;
