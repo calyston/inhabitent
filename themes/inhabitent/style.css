@@ -153,7 +153,10 @@ h3 {
 #menu-with-search {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .shop-grid {
   display: grid;
@@ -650,3 +653,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .search-results button {
   margin-bottom: 1.5rem; }
+
+.search-toggle {
+  padding: 10px; }
