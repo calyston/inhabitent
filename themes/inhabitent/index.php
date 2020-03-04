@@ -17,7 +17,7 @@
         </div>
       </div>
       <!-- <h3><?php the_permalink();?></h3> -->
-      <?php the_excerpt(); ?>
+      <?php echo wp_trim_words(get_the_content(), 50, ' [...]');?>
       <form action=<?php the_permalink();?> method="get">
    <button class="read-more-journal">Read More →</button>
   </form>
@@ -30,5 +30,6 @@
 <?php else : ?>
         <p>No posts found</p>
 <?php endif;?>
+
 
 <?php get_footer();?>

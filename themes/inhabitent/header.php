@@ -14,6 +14,7 @@
     <nav class="white-nav">
     <a href="/inhabitent"><img id="logo-small-white" src="<?php echo get_template_directory_uri();?>/assets/images/logos/inhabitent-logo-tent-white.svg"></a>
     
+    <div id="menu-with-search">
     <?php wp_nav_menu(array(
       'theme_location' => 'main'
     )) ;?>
@@ -21,13 +22,15 @@
     <div class="header-search">
       <?php get_search_form();?>
     </div>
-
+    </div>
     </nav>
 
     <?php } else { ?>
 
     <nav class="green-nav">
     <a href="/inhabitent"><img id="logo-small-green" src="<?php echo get_template_directory_uri();?>/assets/images/logos/inhabitent-logo-tent.svg"></a>
+    
+    <div id="menu-with-search">
     <?php wp_nav_menu(array(
       'theme_location' => 'main'
     )) ;?>
@@ -35,7 +38,7 @@
     <div class="header-search">
       <?php get_search_form();?>
     </div>
-
+    </div>
     </nav>
 
     <?php } ?>

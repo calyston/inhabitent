@@ -150,6 +150,11 @@ h3 {
   width: 50px;
   padding-left: 50px; }
 
+#menu-with-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .shop-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
