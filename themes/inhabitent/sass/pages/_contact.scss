@@ -5,7 +5,7 @@
 }
 
 #contact-title {
-  font-family: 'Novecento';
+  font-family: $accent-font;
   font-weight: bold;
   margin: $base-spacing 0 $base-spacing 0;
 }
@@ -13,11 +13,26 @@
 .contact {
   h2 {
   color: $brand-purple;
-  font-family: 'Novecento';
+  font-family: $accent-font;
   font-weight: bold;
   margin: $base-spacing 0 $base-spacing 0;
   }
   p {
     width: 60%;
   }
+}
+
+label {
+  color: $brand-purple;
+  font-family: $accent-font;
+  text-transform: uppercase;
+
+  input {
+    background-color: $brand-light-grey;
+    border: 1px solid $brand-med-grey;
+  }
+}
+
+#asterix {
+  color: $brand-orange;
 }

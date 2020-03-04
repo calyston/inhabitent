@@ -474,18 +474,29 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 4.5rem; }
 
 #contact-title {
-  font-family: 'Novecento';
+  font-family: "Novecento";
   font-weight: bold;
   margin: 1.5rem 0 1.5rem 0; }
 
 .contact h2 {
   color: #2f1339;
-  font-family: 'Novecento';
+  font-family: "Novecento";
   font-weight: bold;
   margin: 1.5rem 0 1.5rem 0; }
 
 .contact p {
   width: 60%; }
+
+label {
+  color: #2f1339;
+  font-family: "Novecento";
+  text-transform: uppercase; }
+  label input {
+    background-color: #a1a1a1;
+    border: 1px solid #808080; }
+
+#asterix {
+  color: #d99054; }
 
 #shop-header {
   display: -webkit-box;
