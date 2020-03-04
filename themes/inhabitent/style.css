@@ -652,7 +652,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .search-page {
   width: 60%;
-  margin: 3rem; }
+  margin: 3rem;
+  margin-left: 4.5rem; }
   .search-page h1 {
     font-weight: bold;
     font-size: 40px;
