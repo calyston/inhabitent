@@ -4,12 +4,12 @@
 
 .green-button {
   color: #ffffff;
+  font-family: $accent-font;
+  text-transform: uppercase;
   background-color: $brand-green;
   border: none;
   padding: 10px;
   margin: 10px;
-  text-transform: uppercase;
-  font-family: $accent-font;
 }
 
 .read-entry {
@@ -24,7 +24,20 @@
   margin-top: $base-spacing;
   margin-bottom: 15px;
 }
-.read-more {
+
+.read-more-clear {
+  color: #ffffff;
+  font-family: $accent-font;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: none;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  margin-top: $base-spacing;
+}
+
+//JOURNAL PAGE
+.read-more-journal {
   color: #000000;
   font-family: $accent-font;
   font-size: 18px;

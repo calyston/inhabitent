@@ -4,6 +4,9 @@
 function inhabitant_files() {
     wp_enqueue_style('inhabitant_styles', get_stylesheet_uri('/build/css/style.min.css'), NULL, microtime());
     wp_enqueue_style('fonts', "https://fonts.googleapis.com/css?family=Lato&display=swap");
+    wp_enqueue_style('font-awesome-cdn', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0');
+
+    wp_enqueue_script('inhabitent-search-toggle', get_template_directory_uri() . '/build/js/search-toggle.min.js', array('jquery'), NULL, true);
 }
 
 add_action('wp_enqueue_scripts', 'inhabitant_files');

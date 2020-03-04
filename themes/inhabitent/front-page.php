@@ -95,15 +95,23 @@
 <?php
    $args = array(
     'post_type' => 'post',
-    'order' => 'ASC',
-    'numberposts' => 3 //returns 3 posts
+    'order' => 'DESC',
+    'numberposts' => 4
   );
    $product_posts = get_posts( $args ); //returns an array of posts
 ?>
+
+
 <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
-   <?php the_title();?>
-   <?php the_post_thumbnail();?>
+<div class="home-adventure-grid-items">
+  <?php the_post_thumbnail();?>
+   <h2><?php the_title();?></h2>
+   <form action=<?php the_permalink();?> method="get">
+   <button class="read-more-clear">Read More</button>
+  </form>
+</div> 
 <?php endforeach; wp_reset_postdata(); ?>
+ 
 </section> -->
 
 <?php get_footer();?>

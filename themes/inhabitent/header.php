@@ -17,6 +17,11 @@
     <?php wp_nav_menu(array(
       'theme_location' => 'main'
     )) ;?>
+
+    <div class="header-search">
+      <?php get_search_form();?>
+    </div>
+
     </nav>
 
     <?php } else { ?>
@@ -26,7 +31,13 @@
     <?php wp_nav_menu(array(
       'theme_location' => 'main'
     )) ;?>
+
+    <div class="header-search">
+      <?php get_search_form();?>
+    </div>
+
     </nav>
 
     <?php } ?>
 </header>
+
