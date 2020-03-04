@@ -645,18 +645,21 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: flex-end; }
 
 .journal-post {
-  width: 800px;
+  width: 60%;
   height: auto;
   margin: 3rem;
   margin-left: 4.5rem; }
 
 .search-page {
+  width: 60%;
   margin: 3rem; }
   .search-page h1 {
     font-weight: bold;
-    font-size: 40px; }
+    font-size: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1; }
 
-.search-results h2 {
+.search-results #search-results-title {
   color: #248A83;
   font-weight: bold;
   padding: 1.5rem 0px 1.5rem 0px; }

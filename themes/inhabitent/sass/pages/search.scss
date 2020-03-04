@@ -1,16 +1,19 @@
 //SEARCH RESULTS PAGE
 .search-page {
+  width: 60%;
   margin: $base-spacing * 2;
 
   h1 {
   font-weight: bold;
   font-size: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e1e1;
   }
 }
 
 .search-results{
 
-  h2 {
+  #search-results-title {
   color: $brand-green;
   font-weight: bold;
   padding: $base-spacing 0px $base-spacing 0px;

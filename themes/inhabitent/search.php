@@ -10,7 +10,7 @@
     while( have_posts() ) :
         the_post(); ?>
     <div class="search-results">
-    <h2><?php the_title(); ?></h2>
+    <h2 id="search-results-title"><?php the_title(); ?></h2>
     <?php the_excerpt(); ?>
     <form action=<?php the_permalink();?> method="get">
       <button class="read-more-journal">Read More →</button>
