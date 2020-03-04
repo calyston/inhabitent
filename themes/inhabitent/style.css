@@ -169,6 +169,14 @@ h3 {
   margin: 4.5rem;
   margin-top: 1.5rem; }
 
+.grid-find {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
+.grid-find {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
 .adventure-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -271,6 +279,9 @@ h3 {
             box-shadow: 0px 5px #e1e1e1;
     margin-bottom: 1.5rem; }
 
+header {
+  height: 50px; }
+
 footer {
   width: 100%;
   background-image: url(./assets/images/dark-wood.png);
@@ -322,7 +333,6 @@ footer {
   margin: 3rem; }
 
 .sidebar {
-  float: right;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,8 +340,9 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 3rem;
-  margin-right: 4.5rem; }
+  padding: 3rem;
+  margin-right: 4.5rem;
+  border-left: 1px solid #e1e1e1; }
   .sidebar h2 {
     color: #2f1339;
     font-weight: bold;
@@ -492,8 +503,8 @@ label {
   font-family: "Novecento";
   text-transform: uppercase; }
   label input {
-    background-color: #a1a1a1;
-    border: 1px solid #808080; }
+    background-color: #dcdcdc;
+    border: 1px solid #a1a1a1; }
 
 #asterix {
   color: #d99054; }

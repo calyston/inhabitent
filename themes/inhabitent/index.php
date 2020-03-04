@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="empty-div"></div>
+<!-- <article class="grid-find"> -->
 <?php get_sidebar();?>
 
 <?php if( have_posts() ) :
@@ -31,5 +31,7 @@
         <p>No posts found</p>
 <?php endif;?>
 
+
+<!-- </article> -->
 
 <?php get_footer();?>

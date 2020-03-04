@@ -1,7 +1,5 @@
 <?php get_header(); ?>
-<div id="empty-div"></div>
-<?php get_sidebar();?>
-
+<article class="grid-find">
 <section id="contact-page">
 <?php if( have_posts() ) :
 
@@ -24,6 +22,7 @@
         <p>No posts found</p>
 <?php endif;?>
 </section>
-
+<?php get_sidebar();?>
+</article>
 
 <?php get_footer();?>

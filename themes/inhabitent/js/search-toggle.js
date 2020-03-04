@@ -4,9 +4,11 @@
    * Search Box Toggling
    */
   $(function () {
+    const $label = $('.search-toggle').siblings('label');
+    $label.hide();
+
     $('.search-toggle').on('click', function (event) {
       event.preventDefault();
-      const $label = $(this).siblings('label');
       $label.animate({ width: 'toggle' });
       $label.children('[type="search"]').focus();
     });
