@@ -1,13 +1,23 @@
 //SEARCH RESULTS PAGE
-h1 {
+.search-page {
+  margin: $base-spacing * 2;
+
+  h1 {
   font-weight: bold;
-  // font-size: 30px;
+  font-size: 40px;
+  }
 }
 
 .search-results{
+
   h2 {
   color: $brand-green;
   font-weight: bold;
+  padding: $base-spacing 0px $base-spacing 0px;
+  }
+  
+  button {
+    margin-bottom: $base-spacing;
   }
 }
 // 

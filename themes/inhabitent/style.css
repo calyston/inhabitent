@@ -97,7 +97,7 @@ table {
   font-style: normal; }
 
 h1 {
-  font-size: 40px; }
+  font-size: 50px; }
 
 h2 {
   font-size: 30px; }
@@ -588,15 +588,6 @@ h1, h2, h3, h4, h5, h6 {
 .price {
   margin-bottom: 1.5rem; }
 
-.journal-page {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
-
-.sidebar-grid {
-  grid-row-start: 1;
-  grid-row-end: 5; }
-
 .journal-post-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -641,9 +632,16 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   margin: 3rem; }
 
-h1 {
-  font-weight: bold; }
+.search-page {
+  margin: 3rem; }
+  .search-page h1 {
+    font-weight: bold;
+    font-size: 40px; }
 
 .search-results h2 {
   color: #248A83;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 1.5rem 0px 1.5rem 0px; }
+
+.search-results button {
+  margin-bottom: 1.5rem; }
