@@ -1,26 +1,35 @@
 //ADVENTURE ARCHIVE PAGE
+#adventure-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#adventure-title {
+  font-weight: bold;
+  margin-top: $base-spacing * 3;
+}
 
 .adventure-grid-post {
   display: flex;
 
   img {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     object-fit: cover;
     position: relative;
   }
 
   h1 {
-    width: 500px;
+    width: 600px;
     position: absolute;
     z-index: 1;    
     font-family: $main-font;
-    // font-weight: bold;
     color: #ffffff;
     text-transform: none;
     padding: 10px 20px;
     margin-top: 30px;
+    line-height: 1.25;
   }
 
   form {

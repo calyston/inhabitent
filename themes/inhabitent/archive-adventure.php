@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 
-<h2 id="adventure-title">Latest Adventures</h2>
+<div id="adventure-header">
+  <h2 id="adventure-title">Latest Adventures</h2>
+</div>
+
 
 <section class="adventure-grid">
 <?php if( have_posts() ) :

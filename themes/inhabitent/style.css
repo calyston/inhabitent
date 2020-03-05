@@ -535,12 +535,9 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center; }
 
 .shop-title {
-  color: #404040;
-  text-transform: uppercase;
-  font-family: "Novecento";
   font-weight: bold;
   font-size: 40px;
-  margin-top: 3rem; }
+  margin-top: 4.5rem; }
 
 .shop-links {
   display: -webkit-box;
@@ -675,25 +672,42 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 4.5rem;
   margin-top: 4.5rem; }
 
+#adventure-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#adventure-title {
+  font-weight: bold;
+  margin-top: 4.5rem; }
+
 .adventure-grid-post {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   .adventure-grid-post img {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     -o-object-fit: cover;
        object-fit: cover;
     position: relative; }
   .adventure-grid-post h1 {
-    width: 500px;
+    width: 600px;
     position: absolute;
     z-index: 1;
     font-family: "Merriweather";
     color: #ffffff;
     text-transform: none;
     padding: 10px 20px;
-    margin-top: 30px; }
+    margin-top: 30px;
+    line-height: 1.25; }
   .adventure-grid-post form {
     position: absolute;
     z-index: 1;

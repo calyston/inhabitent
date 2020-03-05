@@ -11,15 +11,17 @@
   justify-content: space-between;
   position: fixed;
   width: 100%;
+
   li {
-  float: left;
-  padding: 10px;
+    float: left;
+    padding: 10px;
   }
+
   a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: $accent-font;
-  color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $accent-font;
+    color: #ffffff;
   }
 }
 
@@ -36,15 +38,17 @@
   position: absolute;
   width: 100%;
   border-bottom: $solid-border;
+
   li {
-  float: left;
-  padding: 10px;
+    float: left;
+    padding: 10px;
   }
+
   a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: $accent-font;
-  color: $brand-green;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $accent-font;
+    color: $brand-green;
   }
 }
 
