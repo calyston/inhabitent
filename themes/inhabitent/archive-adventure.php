@@ -12,7 +12,7 @@
     while( have_posts() ) :
       the_post(); ?>
     <div class="adventure-grid-post">
-    <a href="<?php the_permalink();?>"><img src=<?php the_post_thumbnail();?></a>
+    <img src=<?php the_post_thumbnail();?>
     <h1><?php the_title(); ?></h1>
     <form action=<?php the_permalink();?> method="get">
       <button class="read-more-clear">Read More</button>
