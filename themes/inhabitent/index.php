@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<!-- <article class="grid-find"> -->
-<?php get_sidebar();?>
+<article class="grid-journal">
+<section id="journal-page">
 
 <?php if( have_posts() ) :
 
@@ -30,8 +30,9 @@
 <?php else : ?>
         <p>No posts found</p>
 <?php endif;?>
+</section>
 
-
-<!-- </article> -->
+<?php get_sidebar();?>
+</article>
 
 <?php get_footer();?>
