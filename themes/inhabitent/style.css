@@ -381,6 +381,15 @@ textarea {
 #asterix {
   color: #d99054; }
 
+.wpcf7-submit {
+  color: #ffffff;
+  font-family: "Novecento";
+  text-transform: uppercase;
+  background-color: #248A83;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1.5rem; }
+
 .green-button {
   color: #ffffff;
   font-family: "Novecento";

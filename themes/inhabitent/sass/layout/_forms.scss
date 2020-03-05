@@ -31,3 +31,13 @@ textarea {
 #asterix {
   color: $brand-orange;
 }
+
+.wpcf7-submit {
+  color: #ffffff;
+  font-family: $accent-font;
+  text-transform: uppercase;
+  background-color: $brand-green;
+  border: none;
+  padding: 10px 20px;
+  margin-top: $base-spacing;
+}
