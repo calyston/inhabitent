@@ -29,8 +29,10 @@
   grid-template-columns: 1fr 1fr ;
   justify-items: center;
   border-top: $dashed-border;
+  padding-top: $base-spacing *2;
   gap: $base-spacing;
-  margin: $base-spacing * 2;
+  margin: $base-spacing * 3;
+  margin-top: $base-spacing;
 }
 
 //SHOP STUFF- HOME PAGE

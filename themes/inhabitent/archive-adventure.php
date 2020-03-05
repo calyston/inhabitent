@@ -1,18 +1,19 @@
 <?php get_header(); ?>
-<div id="empty-div"></div>
+
+<h2 id="adventure-title">Latest Adventures</h2>
 
 <section class="adventure-grid">
-
 <?php if( have_posts() ) :
 
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
       the_post(); ?>
-    <div class="adventure-grid-item">
+    <div class="adventure-grid-post">
     <a href="<?php the_permalink();?>"><img src=<?php the_post_thumbnail();?></a>
-    <h2><?php the_title(); ?></h2>
-    <!-- <h3><?php the_permalink();?></h3> -->
-    <!-- <?php the_content(); ?> -->
+    <h1><?php the_title(); ?></h1>
+    <form action=<?php the_permalink();?> method="get">
+      <button class="read-more-clear">Read More</button>
+    </form>
     </div>
     
     <!-- Loop ends -->

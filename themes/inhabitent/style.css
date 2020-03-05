@@ -184,8 +184,10 @@ h3 {
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   border-top: 1px dashed #c8c8c8;
+  padding-top: 3rem;
   gap: 1.5rem;
-  margin: 3rem; }
+  margin: 4.5rem;
+  margin-top: 1.5rem; }
 
 .home-shop-grid {
   display: -webkit-box;
@@ -345,7 +347,6 @@ footer {
   .sidebar h2 {
     color: #2f1339;
     font-weight: bold;
-    font-size: 30px;
     padding: 15px 0px; }
   .sidebar strong {
     font-weight: bold; }
@@ -416,7 +417,7 @@ textarea {
   font-family: "Novecento";
   font-size: 18px;
   text-transform: uppercase;
-  background-color: none;
+  background-color: transparent;
   border: 1px solid #ffffff;
   padding: 10px 20px;
   margin-top: 1.5rem; }
@@ -538,7 +539,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: "Novecento";
   font-weight: bold;
-  padding: 20px; }
+  font-size: 40px;
+  margin-top: 3rem; }
 
 .shop-links {
   display: -webkit-box;
@@ -550,23 +552,12 @@ h1, h2, h3, h4, h5, h6 {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
   color: #248A83;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase; }
-
-#shop-links a {
-  color: #248A83;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase; }
-
-#shop-links li {
-  float: left;
-  padding: 10px;
-  padding-bottom: 20px;
-  padding-top: 0px; }
 
 .shop-item {
   display: -webkit-box;
@@ -683,6 +674,32 @@ h1, h2, h3, h4, h5, h6 {
   margin: 3rem;
   margin-left: 4.5rem;
   margin-top: 4.5rem; }
+
+.adventure-grid-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .adventure-grid-post img {
+    width: 500px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative; }
+  .adventure-grid-post h1 {
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    font-family: "Merriweather";
+    color: #ffffff;
+    text-transform: none;
+    padding: 10px 20px;
+    margin-top: 30px; }
+  .adventure-grid-post form {
+    position: absolute;
+    z-index: 1;
+    padding: 10px 20px;
+    -ms-flex-item-align: center;
+        align-self: center; }
 
 .search-page {
   width: 60%;

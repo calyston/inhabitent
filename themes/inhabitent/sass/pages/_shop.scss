@@ -11,39 +11,41 @@
   text-transform: uppercase;
   font-family: $accent-font;
   font-weight: bold;
-  padding: 20px;
+  font-size: 40px;
+  margin-top: $base-spacing * 2;
 }
 
 .shop-links {
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-margin: $base-spacing * 2;
+margin-top: $base-spacing;
+margin-bottom: $base-spacing * 2;
 color: $brand-green;
 text-align: center;
 text-decoration: none;
 text-transform: uppercase;
 }
 
-#shop-links a {
-  color: $brand-green;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+// #shop-links a {
+//   color: $brand-green;
+//   text-align: center;
+//   text-decoration: none;
+//   text-transform: uppercase;
+// }
 
-#shop-links li {
-  float: left;
-  padding: 10px;
-  padding-bottom: 20px;
-  padding-top: 0px;
-}
+// #shop-links li {
+//   float: left;
+//   padding: 10px;
+//   padding-bottom: 20px;
+//   padding-top: 0px;
+// }
 
 .shop-item {
   display: flex;
   flex-direction: column;
   width: 275px;
-  border: 1px solid #e1e1e1;
+  border: $solid-border;
 }
 
 .shop-item img {

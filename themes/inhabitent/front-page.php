@@ -62,6 +62,8 @@
 
   <!-- if term name === do/eat/sleep/wear then echo relevant paragraph-->
 
+  <!-- echo $term -> description -->
+
 
 <h1 class="home-h1">inhabitent journal</h1>
 <!-- Custom Post Loop Starts -->

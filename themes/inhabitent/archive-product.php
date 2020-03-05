@@ -1,17 +1,10 @@
 <?php get_header(); ?>
-<div id="empty-div"></div>
 
 <div id="shop-header">
   <h2 class="shop-title">Shop Stuff</h2>
-  <ul id="shop-links">
-    <a href="#"><li>Do</li></a>
-    <a href="#"><li>Eat</li></a>
-    <a href="#"><li>Sleep</li></a>
-    <a href="#"><li>Wear</li></a>
-  </ul>
 </div>
 
-<section class="shop-links">
+<div class="shop-links">
 <?php
   $terms = get_terms(array(
     'taxonomy' => 'product-type',
@@ -25,7 +18,7 @@
     ?>
   <!-- <?php the_permalink();?> -->
     <?php endforeach; ?>
-  </section>
+  </div>
 
 <section class="shop-grid">
 
