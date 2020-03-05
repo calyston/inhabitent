@@ -474,21 +474,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #2f1339;
   text-align: center; }
 
-.about-page h2, .about-page p {
-  max-width: 800px;
-  margin: auto; }
-
-.about h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #2f1339;
-  padding: 20px;
-  font-family: 'Novecento'; }
-
 .hero-about {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("./assets/images/about-hero.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/images/about-hero.jpg");
@@ -496,21 +481,36 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: bottom;
   width: 100%;
-  height: 700px; }
+  height: 700px;
+  margin-bottom: 3rem; }
+  .hero-about h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold; }
 
-.hero-about h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-  color: white;
-  font-size: 50px; }
+.about {
+  margin-bottom: 4.5rem; }
+  .about h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #2f1339;
+    font-weight: bold; }
+  .about p {
+    margin: 1.5rem 15rem; }
 
 #contact-page {
   margin: 3rem;

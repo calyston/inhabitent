@@ -1,21 +1,6 @@
 //ABOUT PAGE
 
-.about-page {
-  h2, p {
-  max-width: 800px;
-  margin: auto;
-} 
-}
-
-
-.about h2 {
-  display: flex;
-  justify-content: center;
-  color: $brand-purple;
-  padding: 20px;
-  font-family: 'Novecento';
-}
-
+//HERO
 .hero-about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/images/about-hero.jpg");
   background-size: cover;
@@ -23,13 +8,32 @@
   background-position: bottom;
   width: 100%;
   height: 700px;
+  margin-bottom: $base-spacing * 2;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+  }
 }
 
-.hero-about h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  color: white;
-  font-size: 50px;
+//CONTENT
+.about {
+  margin-bottom: $base-spacing * 3;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    color: $brand-purple;
+    font-weight: bold;
+    }
+
+  p {
+    margin: $base-spacing ($base-spacing * 10);
+  }
 }
+

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="about-page">
+
 <?php if( have_posts() ) :
 
 //The WordPress Loop: loads post content 
@@ -11,8 +11,8 @@
     <!-- style="background-image: (url: <?php get_the_post_thumbnail_url();?>)"> -->
     <h2><?php the_title(); ?></h2>
     </div>
-    <section class="about"
-    <h3><?php the_permalink();?></h3>
+
+    <section class="about">
     <?php the_content(); ?>
     </section>
     
@@ -25,5 +25,5 @@
         <p>No posts found</p>
 <?php endif;?>
 
-</section>
+
 <?php get_footer();?>
