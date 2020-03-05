@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
-  border-top: 1px dashed #c8c8c8;
+  border-top: $dashed-border;
   padding-top: $base-spacing *2;
   gap: $base-spacing;
   margin: $base-spacing * 3;
@@ -28,7 +28,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr ;
   justify-items: center;
-  border-top: 1px dashed #c8c8c8;
+  border-top: $dashed-border;
   gap: $base-spacing;
   margin: $base-spacing * 2;
 }
@@ -47,7 +47,7 @@
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  border: 1px solid #e1e1e1;
+  border: $solid-border;
   box-shadow: 0px -5px #e1e1e1;
   padding: 10px;
   text-align: center;
@@ -79,7 +79,7 @@
   width: 400px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #e1e1e1;
+  border: $solid-border;
   p {
     margin-left: 10px;
   }

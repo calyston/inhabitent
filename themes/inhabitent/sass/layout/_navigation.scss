@@ -29,11 +29,13 @@
 }
 
 .green-nav {
+  height: 50px;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   position: absolute;
   width: 100%;
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: $solid-border;
   li {
   float: left;
   padding: 10px;

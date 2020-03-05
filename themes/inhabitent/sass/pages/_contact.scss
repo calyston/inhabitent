@@ -9,30 +9,3 @@
   font-weight: bold;
   margin: $base-spacing 0 $base-spacing 0;
 }
-
-.contact {
-  h2 {
-  color: $brand-purple;
-  font-family: $accent-font;
-  font-weight: bold;
-  margin: $base-spacing 0 $base-spacing 0;
-  }
-  p {
-    width: 60%;
-  }
-}
-
-label {
-  color: $brand-purple;
-  font-family: $accent-font;
-  text-transform: uppercase;
-
-  input {
-    background-color: #dcdcdc;
-    border: 1px solid $brand-light-grey;
-  }
-}
-
-#asterix {
-  color: $brand-orange;
-}
