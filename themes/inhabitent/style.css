@@ -422,7 +422,7 @@ textarea {
   padding: 10px 20px;
   margin-top: 1.5rem; }
 
-.read-more-journal {
+.white-button {
   color: #000000;
   font-family: "Novecento";
   font-size: 18px;
@@ -431,6 +431,29 @@ textarea {
   border: 1px solid #000000;
   padding: 10px 20px;
   margin-top: 1.5rem; }
+
+.sns-individual {
+  color: #000000;
+  font-family: "Novecento";
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem; }
+
+.sns-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15rem; }
+
+.sns-buttons-journal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 4.5rem; }
 
 #empty-div {
   height: 50px; }

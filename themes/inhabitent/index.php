@@ -19,7 +19,7 @@
       <!-- <h3><?php the_permalink();?></h3> -->
       <?php echo wp_trim_words(get_the_content(), 50, ' [...]');?>
       <form action=<?php the_permalink();?> method="get">
-   <button class="read-more-journal">Read More →</button>
+   <button class="white-button">Read More →</button>
   </form>
     </div>
     <!-- Loop ends -->

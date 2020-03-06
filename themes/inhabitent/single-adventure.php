@@ -11,7 +11,17 @@
     <h2><?php the_title(); ?></h2>
     <span>By <?php the_author(); ?></span>
     <?php the_content(); ?>
-    
+    <div class="sns-buttons">
+      <form action=<?php the_permalink();?> method="get">
+        <button class="sns-individual"><i class="fab fa-facebook-f"></i> Like</button>
+      </form>
+      <form action=<?php the_permalink();?> method="get">
+        <button class="sns-individual"><i class="fab fa-twitter"></i> Tweet</button>
+      </form>
+      <form action=<?php the_permalink();?> method="get">
+        <button class="sns-individual"><i class="fab fa-pinterest"></i> Pin</button>
+      </form>
+    </div>
     <!-- Loop ends -->
     <?php endwhile;?>
 

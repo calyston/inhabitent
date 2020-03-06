@@ -37,7 +37,7 @@
 }
 
 //JOURNAL PAGE
-.read-more-journal {
+.white-button {
   color: #000000;
   font-family: $accent-font;
   font-size: 18px;
@@ -46,4 +46,28 @@
   border: 1px solid #000000;
   padding: 10px 20px;
   margin-top: $base-spacing;
+}
+
+
+//SOCIAL NETWORK BUTTONS
+.sns-individual {
+  color: #000000;
+  font-family: $accent-font;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  margin-top: $base-spacing;
+  margin-right: $base-spacing;
+}
+
+.sns-buttons {
+  display: flex;
+  margin-left: $base-spacing * 10;
+}
+
+.sns-buttons-journal {
+  display: flex;
+  margin-left: $base-spacing * 3;
 }
