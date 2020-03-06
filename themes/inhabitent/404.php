@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h1>You landed on a broken page</h1>
+<h2>Oops! That page can't be found.</h2>
 
 <?php if( have_posts() ) :
 

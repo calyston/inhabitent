@@ -11,6 +11,7 @@
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  align-items: center;
 
   li {
     float: left;
@@ -38,6 +39,7 @@
   position: absolute;
   width: 100%;
   border-bottom: $solid-border;
+  align-items: center;
 
   li {
     float: left;
