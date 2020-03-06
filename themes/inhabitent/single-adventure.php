@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="about-page">
+<section class="single-adventure-page">
 <?php if( have_posts() ) :
 
 //The WordPress Loop: loads post content 
@@ -9,8 +9,7 @@
     
     <img src=<?php the_post_thumbnail();?>
     <h2><?php the_title(); ?></h2>
-    <?php the_author(); ?>
-    <h3><?php the_permalink();?></h3>
+    <span>By <?php the_author(); ?></span>
     <?php the_content(); ?>
     
     <!-- Loop ends -->
