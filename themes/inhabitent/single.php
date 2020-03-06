@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-<div id="empty-div"></div>
-<?php get_sidebar();?>
+<article class="grid-journal">
 
 <?php if( have_posts() ) :
 //The WordPress Loop: loads post content 
@@ -16,7 +15,7 @@
         </div>
       </div>
       <!-- <h3><?php the_permalink();?></h3> -->
-      <?php the_content(); ?>
+      <p id="single-journal-content"><?php the_content(); ?></p>
     </div>
     
     <!-- Loop ends -->
@@ -28,5 +27,7 @@
         <p>No posts found</p>
 <?php endif;?>
 
-    
+<?php get_sidebar();?>
+</article>
+
 <?php get_footer();?>

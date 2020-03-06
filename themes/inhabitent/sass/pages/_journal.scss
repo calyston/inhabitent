@@ -2,7 +2,6 @@
 
 .journal-post-img {
   display: flex;
-  padding: 20px 0px;
 
   img {
     width: 800px;
@@ -45,6 +44,13 @@
   margin: $base-spacing * 2;
   margin-left: $base-spacing * 3;
   margin-top: $base-spacing * 3;
+
+  p {
+    margin: $base-spacing 0;
+  }
 }
 
 //INDIVIDUAL JOURNAL POSTS
+#single-journal-content {
+  margin: $base-spacing 0;
+}
