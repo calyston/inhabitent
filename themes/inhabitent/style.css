@@ -452,8 +452,7 @@ textarea {
 .sns-buttons-journal {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin-left: 4.5rem; }
+  display: flex; }
 
 #empty-div {
   height: 50px; }

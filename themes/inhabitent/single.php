@@ -14,8 +14,18 @@
           <span><?php the_date(); ?> / By <?php the_author(); ?></span>
         </div>
       </div>
-      <!-- <h3><?php the_permalink();?></h3> -->
       <p id="single-journal-content"><?php the_content(); ?></p>
+      <div class="sns-buttons-journal">
+        <form action=<?php the_permalink();?> method="get">
+          <button class="sns-individual"><i class="fab fa-facebook-f"></i> Like</button>
+        </form>
+        <form action=<?php the_permalink();?> method="get">
+          <button class="sns-individual"><i class="fab fa-twitter"></i> Tweet</button>
+        </form>
+        <form action=<?php the_permalink();?> method="get">
+          <button class="sns-individual"><i class="fab fa-pinterest"></i> Pin</button>
+        </form>
+      </div>
     </div>
     
     <!-- Loop ends -->
