@@ -16,7 +16,7 @@
     $file_name = $term->name . '.svg';
     echo $term->name;
     ?>
-  <!-- <?php the_permalink();?> -->
+    <!-- <?php the_permalink();?> -->
     <?php endforeach; ?>
   </div>
 

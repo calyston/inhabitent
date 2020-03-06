@@ -15,6 +15,12 @@
         </div>
       </div>
       <p id="single-journal-content"><?php the_content(); ?></p>
+      
+      <div id="journal-tags">
+        <span>POSTED IN → <?php the_category(); ?></span>
+        <span>TAGGED → <?php the_tags(); ?></span>
+      </div>
+
       <div class="sns-buttons-journal">
         <form action=<?php the_permalink();?> method="get">
           <button class="sns-individual"><i class="fab fa-facebook-f"></i> Like</button>

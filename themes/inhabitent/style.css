@@ -698,6 +698,11 @@ h1, h2, h3, h4, h5, h6 {
 #single-journal-content {
   margin: 1.5rem 0; }
 
+#journal-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 #adventure-header {
   display: -webkit-box;
   display: -ms-flexbox;
