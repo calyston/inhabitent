@@ -441,7 +441,7 @@ textarea {
   border: 1px solid #000000;
   padding: 10px 20px;
   margin-top: 1.5rem;
-  margin-right: 1.5rem; }
+  margin-right: 10px; }
 
 .sns-buttons {
   display: -webkit-box;
@@ -698,10 +698,30 @@ h1, h2, h3, h4, h5, h6 {
 #single-journal-content {
   margin: 1.5rem 0; }
 
-#journal-tags {
+.journal-tags {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .journal-tags a {
+    color: #248A83;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+#journal-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+#journal-tags {
+  margin-left: 1.5rem; }
 
 #adventure-header {
   display: -webkit-box;

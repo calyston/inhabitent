@@ -16,11 +16,12 @@
       </div>
       <p id="single-journal-content"><?php the_content(); ?></p>
       
-      <div id="journal-tags">
-        <span>POSTED IN → <?php the_category(); ?></span>
-        <span>TAGGED → <?php the_tags(); ?></span>
+      <div class="journal-tags">
+        <span id="journal-category">POSTED IN → <?php the_category(','); ?></span>
+        <span id="journal-tags">TAGGED → <?php the_tags($before = '', $sep = ', ', $after = ''); ?></span>
       </div>
 
+      <!--SOCIAL MEDIA BUTTONS -->
       <div class="sns-buttons-journal">
         <form action=<?php the_permalink();?> method="get">
           <button class="sns-individual"><i class="fab fa-facebook-f"></i> Like</button>

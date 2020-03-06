@@ -54,7 +54,23 @@
 #single-journal-content {
   margin: $base-spacing 0;
 }
+.journal-tags {
+  display: flex;
+  flex-direction: row;
+
+
+  a {
+    color: $brand-green;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+
+#journal-category {
+  display: flex;
+  flex-direction: row;
+}
 
 #journal-tags {
-  display: flex;
+  margin-left: $base-spacing;
 }

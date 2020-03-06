@@ -17,6 +17,19 @@
         <div id="product-content">
           <?php the_content(); ?>
         </div>
+
+        <!--SOCIAL MEDIA BUTTONS -->
+        <div class="sns-buttons-journal">
+          <form action=<?php the_permalink();?> method="get">
+            <button class="sns-individual"><i class="fab fa-facebook-f"></i> Like</button>
+          </form>
+          <form action=<?php the_permalink();?> method="get">
+            <button class="sns-individual"><i class="fab fa-twitter"></i> Tweet</button>
+          </form>
+          <form action=<?php the_permalink();?> method="get">
+            <button class="sns-individual"><i class="fab fa-pinterest"></i> Pin</button>
+          </form>
+        </div>
       </div>
     
       <!-- Loop ends -->
