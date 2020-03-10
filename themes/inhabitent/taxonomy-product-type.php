@@ -2,7 +2,7 @@
 <div id="empty-div"></div>
 
 <div id="shop-header">
-  <h2 class="shop-title">Change the title!</h2>
+  <h2 class="shop-title">Title</h2>
 </div>
 
 <section class="shop-grid">
@@ -19,7 +19,6 @@
       <p class="archive-product-title"><?php the_title(); ?></p>
       <p class="archive-product-price"><?php echo '$'.get_field('price');?></p>
     </span>
-    <!-- <h3><?php the_permalink();?></h3>
     <?php the_content(); ?> -->
     </div>
 

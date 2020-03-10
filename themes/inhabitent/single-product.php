@@ -30,7 +30,6 @@
             <button class="sns-individual"><i class="fab fa-pinterest"></i> Pin</button>
           </form>
         </div>
-      </div>
     
       <!-- Loop ends -->
       <?php endwhile;?>

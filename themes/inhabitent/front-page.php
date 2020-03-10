@@ -13,8 +13,6 @@
     
     <!-- <h2><?php the_title(); ?></h2> -->
     <?php the_post_thumbnail();?>
-    <h3><?php the_permalink();?></h3>
-    <h3><?php echo get_template_directory_uri();?></h3>
 
     <?php the_content(); ?>
     
@@ -60,11 +58,6 @@
     <?php endforeach; ?>
   </section>
 
-  <!-- if term name === do/eat/sleep/wear then echo relevant paragraph-->
-
-  <!-- echo $term -> description -->
-
-
 <h1 class="home-h1">inhabitent journal</h1>
 <!-- Custom Post Loop Starts -->
 <section class="home-journal-grid">
@@ -74,7 +67,7 @@
     'order' => 'DESC',
     'numberposts' => 3 //returns 3 posts
   );
-   $product_posts = get_posts( $args ); //returns an array of posts
+   $product_posts = get_posts( $args );
 ?>
 
 

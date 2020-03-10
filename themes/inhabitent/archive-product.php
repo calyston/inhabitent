@@ -34,8 +34,6 @@
       <p class="archive-product-title"><?php the_title(); ?></p>
       <p class="archive-product-price"><?php echo '$'.get_field('price');?></p>
     </span>
-    <!-- <h3><?php the_permalink();?></h3> -->
-    <!-- <?php the_content(); ?> -->
     </div>
     
     <!-- Loop ends -->

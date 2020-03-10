@@ -137,5 +137,8 @@ register_post_type('adventure', array(
   ),
   'menu_icon' => 'dashicons-palmtree',
 ));
+
+remove_action('shutdown', 'wp_ob_end_flush_all', 1);
+
 ?>
 

@@ -16,11 +16,10 @@
           <span><?php the_date(); ?> / By <?php the_author(); ?></span>
         </div>
       </div>
-      <!-- <h3><?php the_permalink();?></h3> -->
       <?php echo wp_trim_words(get_the_content(), 50, ' [...]');?>
       <form action=<?php the_permalink();?> method="get">
-   <button class="white-button">Read More →</button>
-  </form>
+        <button class="white-button">Read More →</button>
+      </form>
     </div>
     <!-- Loop ends -->
     <?php endwhile;?>
