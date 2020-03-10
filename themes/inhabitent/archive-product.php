@@ -17,7 +17,6 @@
     echo $term->name; 
     echo "</a>";
     ?>
-    <!-- <?php the_permalink();?> -->
     <?php endforeach; ?>
   </div>
 

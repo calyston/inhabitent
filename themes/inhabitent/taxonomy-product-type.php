@@ -1,11 +1,13 @@
 <?php get_header(); ?>
 <div id="empty-div"></div>
 
-<div id="shop-header">
-  <h2 class="shop-title">Title</h2>
+<div id='shop-header'>
+  <h2 class='shop-title'><?php echo single_term_title(); ?></h2>
 </div>
 
-<!-- <div class=""> -->
+
+
+
 <?php
   $terms = get_terms(array(
     'taxonomy' => 'product-type',
@@ -14,13 +16,10 @@
 
   //Shop Section name/button
   foreach($terms as $term) :
-    // $file_name = $term->name . '.svg';
-    echo $term->name;
-    echo $term->description;
+    echo $term->name; 
+    echo "<span>$term->description<span>";
     ?>
-    <!-- <?php the_permalink();?> -->
     <?php endforeach; ?>
-  <!-- </div> -->
 
 <section class="shop-grid">
 
@@ -36,7 +35,6 @@
       <p class="archive-product-title"><?php the_title(); ?></p>
       <p class="archive-product-price"><?php echo '$'.get_field('price');?></p>
     </span>
-    <?php the_content(); ?> -->
     </div>
 
     <!-- Loop ends -->
