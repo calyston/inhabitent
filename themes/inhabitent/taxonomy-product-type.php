@@ -3,23 +3,8 @@
 
 <div id='shop-header'>
   <h2 class='shop-title'><?php echo single_term_title(); ?></h2>
+  <?php echo term_description(); ?>
 </div>
-
-
-
-
-<?php
-  $terms = get_terms(array(
-    'taxonomy' => 'product-type',
-    'hide-empty' => false
-  ));
-
-  //Shop Section name/button
-  foreach($terms as $term) :
-    echo $term->name; 
-    echo "<span>$term->description<span>";
-    ?>
-    <?php endforeach; ?>
 
 <section class="shop-grid">
 

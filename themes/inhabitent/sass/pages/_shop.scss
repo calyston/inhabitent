@@ -70,6 +70,9 @@ text-transform: uppercase;
   margin: 10px 10px;
 }
 
+#shop-header p {
+  margin: $base-spacing;
+}
 
 
 //SINGLE PRODUCT PAGE
@@ -85,6 +88,7 @@ text-transform: uppercase;
   width: 530px;
   height: auto;
   margin: $base-spacing * 2;
+  margin-bottom: $base-spacing * 6;
 }
 
 #product-heading {

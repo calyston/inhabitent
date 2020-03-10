@@ -635,6 +635,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
   margin: 10px 10px; }
 
+#shop-header p {
+  margin: 1.5rem; }
+
 .product-page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -649,7 +652,8 @@ h1, h2, h3, h4, h5, h6 {
 #product-img {
   width: 530px;
   height: auto;
-  margin: 3rem; }
+  margin: 3rem;
+  margin-bottom: 9rem; }
 
 #product-heading {
   color: #d99054;
