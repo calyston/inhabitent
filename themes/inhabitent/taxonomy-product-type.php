@@ -5,6 +5,23 @@
   <h2 class="shop-title">Title</h2>
 </div>
 
+<!-- <div class=""> -->
+<?php
+  $terms = get_terms(array(
+    'taxonomy' => 'product-type',
+    'hide-empty' => false
+  ));
+
+  //Shop Section name/button
+  foreach($terms as $term) :
+    // $file_name = $term->name . '.svg';
+    echo $term->name;
+    echo $term->description;
+    ?>
+    <!-- <?php the_permalink();?> -->
+    <?php endforeach; ?>
+  <!-- </div> -->
+
 <section class="shop-grid">
 
 <?php if( have_posts() ) :

@@ -13,8 +13,9 @@
 
   //Shop Section name/button
   foreach($terms as $term) :
-    $file_name = $term->name . '.svg';
-    echo $term->name;
+    echo "<a href='/inhabitent/product-type/$term->slug'>";
+    echo $term->name; 
+    echo "</a>";
     ?>
     <!-- <?php the_permalink();?> -->
     <?php endforeach; ?>
