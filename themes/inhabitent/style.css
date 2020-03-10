@@ -585,14 +585,18 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 1.5rem;
-  margin-bottom: 3rem;
-  color: #248A83;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase; }
+  margin-bottom: 3rem; }
+  .shop-links a {
+    font-family: "Novecento";
+    color: #248A83;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 1.5rem; }
 
 .shop-item {
   display: -webkit-box;
