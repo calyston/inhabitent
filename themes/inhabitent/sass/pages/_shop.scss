@@ -60,10 +60,14 @@ margin-bottom: $base-spacing * 2;
   margin: 10px 10px;
 }
 
-#shop-header p {
-  margin: $base-spacing;
+#shop-header {
+  h2 {
+    margin-top: $base-spacing;
+  } 
+  p {
+    margin: $base-spacing;
+  }
 }
-
 
 //SINGLE PRODUCT PAGE
 .product-page {
