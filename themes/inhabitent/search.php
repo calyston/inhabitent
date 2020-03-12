@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-<div id="empty-div"></div>
-<?php get_sidebar();?>
+<article class="grid-search">
 
 <section class="search-page">
 <h1>Search Results For: <?php echo esc_html( get_search_query(false) ); ?></h1>
@@ -26,4 +25,8 @@
         <p>No posts found</p>
 <?php endif;?>
 </section>
+
+<?php get_sidebar();?>
+</article>
+
 <?php get_footer(); ?>

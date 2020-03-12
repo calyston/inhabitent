@@ -185,6 +185,10 @@ h3 {
   display: grid;
   grid-template-columns: 2fr 1fr; }
 
+.grid-search {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
 .grid-error {
   display: grid;
   grid-template-columns: 2fr 1fr; }
