@@ -89,8 +89,8 @@
 <section class="home-adventure-grid">
 <?php
    $args = array(
-    'post_type' => 'post',
-    'order' => 'DESC',
+    'post_type' => 'adventure',
+    'order' => 'ASC',
     'numberposts' => 4
   );
    $product_posts = get_posts( $args ); //returns an array of posts

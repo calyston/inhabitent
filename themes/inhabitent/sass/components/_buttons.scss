@@ -15,6 +15,7 @@
 .adventure-green-button {
   @extend .green-button;
   margin-left: $base-spacing * 3;
+  margin-bottom: $base-spacing * 3;
 }
 
 .read-entry {
