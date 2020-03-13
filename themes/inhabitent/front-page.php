@@ -86,7 +86,7 @@
 
 <h1 class="home-h1">latest adventures</h1>
 <!-- Custom Post Loop Starts -->
-<!-- <section class="home-adventure-grid">
+<section class="home-adventure-grid">
 <?php
    $args = array(
     'post_type' => 'post',
@@ -98,15 +98,18 @@
 
 
 <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
-<div class="home-adventure-grid-items">
-  <?php the_post_thumbnail();?>
-   <h2><?php the_title();?></h2>
-   <form action=<?php the_permalink();?> method="get">
-   <button class="read-more-clear">Read More</button>
+<div class="home-adventure-post">
+  <img src=<?php the_post_thumbnail();?>
+  <h2><?php the_title();?></h2>
+  <form action=<?php the_permalink();?> method="get">
+    <button class="read-more-clear">Read More</button>
   </form>
 </div> 
 <?php endforeach; wp_reset_postdata(); ?>
  
-</section> -->
+</section>
+<form action=<?php the_permalink();?> method="get">
+  <button class="adventure-green-button">More Adventures</button>
+</form>
 
 <?php get_footer();?>
