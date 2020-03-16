@@ -108,7 +108,7 @@
 <?php endforeach; wp_reset_postdata(); ?>
  
 </section>
-<form action=<?php the_permalink();?> method="get">
+<form action="/inhabitent/adventure" method="get">
   <button class="adventure-green-button">More Adventures</button>
 </form>
 
