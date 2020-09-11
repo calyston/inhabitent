@@ -2,6 +2,8 @@
 
 Inhabitent is a mock e-commerce and blog website for those who like camping. The theme is a custom Wordpress theme, and the content is largely custom posts of Lorem Ipsum style text.
 
+![](InhabitentHomeGif.gif)
+
 ## Technologies Used
 
 HTML5, CSS3, SASS, PHP, Wordpress, JavaScript, MAMP, GULP, Git.
