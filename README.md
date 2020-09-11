@@ -4,6 +4,8 @@ Inhabitent is a mock e-commerce and blog website for those who like camping. The
 
 ![](InhabitentHomeGif.gif)
 
+![](InhabitentProductsGif.gif)
+
 ## Technologies Used
 
 HTML5, CSS3, SASS, PHP, Wordpress, JavaScript, MAMP, GULP, Git.
